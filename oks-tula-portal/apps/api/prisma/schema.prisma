@@ -1,0 +1,549 @@
+// Схема PostgreSQL/PostGIS портала ОКС Тульской области (§6.2 ТЗ).
+// Геометрические колонки — Unsupported (PostGIS); в клиенте Prisma они
+// не участвуют в типизированных запросах — работа с geom идёт через
+// $queryRaw (ST_AsGeoJSON, ST_Contains, ST_MakeEnvelope) в сервисах.
+// Миграция генерируется `prisma migrate diff` + вручную добавляются
+// CREATE EXTENSION postgis и GiST/GIN-индексы (см. migrations/0001_init).
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ---------------------------------------------------------------------------
+// Перечисления
+// ---------------------------------------------------------------------------
+
+enum Ownership {
+  state
+  municipal
+  unknown
+}
+
+enum GeocodeSource {
+  csv
+  geocoder
+  manual
+  inferred_from_name
+}
+
+enum GeocodeConfidence {
+  high
+  medium
+  low
+}
+
+enum MunicipalitySource {
+  csv_column
+  geometry
+  inferred_address
+  inferred_name
+}
+
+enum OrganizationType {
+  customer
+  contractor
+  grbs
+}
+
+enum ProgramLevel {
+  np_gp
+  fp
+}
+
+enum MediaKind {
+  before_sat
+  process_photo
+  process_video
+  after_render
+  document
+  camera_snapshot
+}
+
+enum CameraType {
+  hls
+  rtsp
+  snapshot
+}
+
+enum ContractSource {
+  eis
+  regional
+  manual
+  mock
+}
+
+enum AppealStatus {
+  new
+  in_review
+  accepted
+  rejected
+  resolved
+  forwarded
+}
+
+enum AppealAuthorType {
+  anon
+  esia
+}
+
+enum SatisfactionSource {
+  pos
+  gov_to
+  mock
+}
+
+enum Sphere {
+  education
+  health
+  sport
+  energy
+  culture
+}
+
+enum LoadClass {
+  deficit
+  border
+  normal
+  surplus
+  no_data
+}
+
+enum UserRole {
+  public
+  editor
+  moderator
+  admin
+}
+
+// ---------------------------------------------------------------------------
+// Справочники
+// ---------------------------------------------------------------------------
+
+model Municipality {
+  id               String   @id // slug: tula, yasnogorsky, ...
+  oktmo            String?  @unique
+  nameShort        String   @map("name_short")
+  nameFull         String   @map("name_full")
+  type             String // urban_okrug | municipal_district | municipal_okrug | zato
+  adminCenter      String?  @map("admin_center")
+  osmName          String?  @map("osm_name")
+  osmRelationId    Int?     @map("osm_relation_id")
+  center           Unsupported("geometry(Point,4326)")?
+  geom             Unsupported("geometry(MultiPolygon,4326)")?
+  areaKm2          Decimal? @map("area_km2") @db.Decimal(12, 3)
+  population       Int?
+  populationYear   Int?     @map("population_year")
+  populationSource String?  @map("population_source")
+  densityPerKm2    Decimal? @map("density_per_km2") @db.Decimal(12, 3)
+  geomIsMock       Boolean  @default(false) @map("geom_is_mock")
+  geomSource       String?  @map("geom_source")
+
+  objects            Object[]
+  citizenSatisfaction CitizenSatisfaction[]
+  socialProvision    SocialProvision[]
+
+  @@index([geom], type: Gist)
+  @@map("municipalities")
+}
+
+model Industry {
+  id        Int     @id @default(autoincrement())
+  code      String  @unique
+  name      String
+  sphere    Sphere?
+  sortOrder Int     @map("sort_order")
+
+  objects Object[]
+
+  @@map("industries")
+}
+
+model Status {
+  id        Int     @id @default(autoincrement())
+  code      String  @unique
+  name      String
+  groupCode String  @map("group_code") // design | construction | procurement | completed
+  colorHex  String  @map("color_hex")
+  sortOrder Int     @map("sort_order")
+
+  objects Object[]
+
+  @@map("statuses")
+}
+
+model Organization {
+  id             Int              @id @default(autoincrement())
+  type           OrganizationType
+  nameNormalized String           @map("name_normalized")
+  nameRaw        String           @map("name_raw")
+  inn            String?
+  aliases        String[]         @default([])
+
+  grbsObjects        Object[]   @relation("ObjectGrbs")
+  customerObjects    Object[]   @relation("ObjectCustomer")
+  contractorObjects  Object[]   @relation("ObjectContractor")
+
+  @@unique([type, nameNormalized])
+  @@index([nameNormalized])
+  @@index([aliases], type: Gin)
+  @@map("organizations")
+}
+
+model Program {
+  id             Int          @id @default(autoincrement())
+  level          ProgramLevel
+  nameNormalized String       @map("name_normalized")
+  code           String?
+  aliases        String[]     @default([])
+
+  objectsNp Object[] @relation("ObjectProgramNp")
+  objectsFp Object[] @relation("ObjectProgramFp")
+
+  @@unique([level, nameNormalized])
+  @@index([aliases], type: Gin)
+  @@map("programs")
+}
+
+model CapacityUnit {
+  id        Int      @id @default(autoincrement())
+  code      String   @unique
+  name      String
+  aliases   String[] @default([])
+  sortOrder Int      @map("sort_order")
+
+  objects Object[]
+
+  @@map("capacity_units")
+}
+
+// ---------------------------------------------------------------------------
+// Объекты капитального строительства
+// ---------------------------------------------------------------------------
+
+model Object {
+  id                String             @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  extId             String?            @map("ext_id")
+  sourceRowNumber   Int                @unique @map("source_row_number")
+  raw               Json
+  sourceFileHash    String?            @map("source_file_hash")
+  importedAt        DateTime           @default(now()) @map("imported_at")
+  name              String
+
+  grbsId            Int?               @map("grbs_id")
+  grbs              Organization?      @relation("ObjectGrbs", fields: [grbsId], references: [id])
+  industryId        Int?               @map("industry_id")
+  industry          Industry?          @relation(fields: [industryId], references: [id])
+  statusId          Int?               @map("status_id")
+  status            Status?            @relation(fields: [statusId], references: [id])
+
+  ownership         Ownership          @default(unknown)
+  municipalityId    String?            @map("municipality_id")
+  municipality      Municipality?      @relation(fields: [municipalityId], references: [id])
+  municipalitySource MunicipalitySource? @map("municipality_source")
+  municipalityConfidence GeocodeConfidence? @map("municipality_confidence")
+  municipalityConflict Boolean          @default(false) @map("municipality_conflict")
+
+  addressRaw        String?            @map("address_raw")
+  addressNormalized String?            @map("address_normalized")
+  geom              Unsupported("geometry(Point,4326)")?
+  geocodeSource     GeocodeSource?     @map("geocode_source")
+  geocodeConfidence GeocodeConfidence? @map("geocode_confidence")
+  geocodeCandidates Json?              @map("geocode_candidates")
+  geocodeVerifiedAt DateTime?          @map("geocode_verified_at")
+
+  customerId        Int?               @map("customer_id")
+  customer          Organization?      @relation("ObjectCustomer", fields: [customerId], references: [id])
+  contractorId      Int?               @map("contractor_id")
+  contractor        Organization?      @relation("ObjectContractor", fields: [contractorId], references: [id])
+  contractorContractRefs Json?         @map("contractor_contract_refs")
+
+  programNpId       Int?               @map("program_np_id")
+  programNp         Program?           @relation("ObjectProgramNp", fields: [programNpId], references: [id])
+  programFpId       Int?               @map("program_fp_id")
+  programFp         Program?           @relation("ObjectProgramFp", fields: [programFpId], references: [id])
+  projectCode       String?            @map("project_code")
+
+  areaM2            Decimal?           @map("area_m2") @db.Decimal(14, 2)
+  capacityValue     Decimal?           @map("capacity_value") @db.Decimal(14, 3)
+  capacityUnitId    Int?               @map("capacity_unit_id")
+  capacityUnit      CapacityUnit?      @relation(fields: [capacityUnitId], references: [id])
+  capacityParts     Json?              @map("capacity_parts")
+  capacityRaw       String?            @map("capacity_raw")
+
+  expertise         Json? // [{date, number, raw, note}]
+  yearStart         Int?               @map("year_start")
+  yearEnd           Int?               @map("year_end")
+  constructionPeriod String?           @map("construction_period")
+  constructionStage String?            @map("construction_stage")
+
+  landTransferDate  DateTime?          @map("land_transfer_date") @db.Date
+  permitDate        DateTime?          @map("permit_date") @db.Date
+  contractDate      DateTime?          @map("contract_date") @db.Date
+  contractPeriodStart DateTime?        @map("contract_period_start") @db.Date
+  contractPeriodEnd   DateTime?        @map("contract_period_end") @db.Date
+  contractPeriodRaw   String?          @map("contract_period_raw")
+  contractPeriodNote  String?          @map("contract_period_note")
+
+  readinessPct      Decimal?           @map("readiness_pct") @db.Decimal(5, 2)
+  equipmentDate     DateTime?          @map("equipment_date") @db.Date
+  hydraulicTestDate DateTime?          @map("hydraulic_test_date") @db.Date
+  zosDate           DateTime?          @map("zos_date") @db.Date
+  zosNumber         String?            @map("zos_number")
+  actDate           DateTime?          @map("act_date") @db.Date
+  actNumber         String?            @map("act_number")
+  commissioningYear Int?               @map("commissioning_year")
+  photoDate         DateTime?          @map("photo_date") @db.Date
+
+  timeline          Json? // [{date, title, description, type}]
+  historyOfPlace    Json?   @map("history_of_place")
+  riskFlags         String[] @default([]) @map("risk_flags")
+  dataFlags         String[] @default([]) @map("data_flags") // пометки нормализации ETL
+  manualOverride    Json?   @map("manual_override")
+  needsModeration   Boolean @default(false) @map("needs_moderation")
+
+  createdAt         DateTime @default(now()) @map("created_at")
+  updatedAt         DateTime @updatedAt @map("updated_at")
+
+  mediaAssets       MediaAsset[]
+  cameraSources     CameraSource[]
+  contracts         Contract[]
+  appeals           Appeal[]
+  isochroneCache    IsochroneCache[]
+
+  @@index([geom], type: Gist)
+  @@index([raw], type: Gin)
+  @@index([timeline], type: Gin)
+  @@index([riskFlags], type: Gin)
+  @@index([statusId, industryId])
+  @@index([municipalityId])
+  @@index([commissioningYear])
+  @@map("objects")
+}
+
+model MediaAsset {
+  id          Int       @id @default(autoincrement())
+  objectId    String    @map("object_id") @db.Uuid
+  object      Object    @relation(fields: [objectId], references: [id], onDelete: Cascade)
+  kind        MediaKind
+  url         String
+  storageKey  String?   @map("storage_key")
+  takenAt     DateTime? @map("taken_at")
+  bounds      Json? // геопривязка рендера/снимка
+  year        Int?
+  caption     String?
+  license     String?
+  isMock      Boolean   @default(false) @map("is_mock")
+  uploadedBy  String?   @map("uploaded_by")
+  createdAt   DateTime  @default(now()) @map("created_at")
+
+  @@index([objectId, kind])
+  @@map("media_assets")
+}
+
+model CameraSource {
+  id             Int        @id @default(autoincrement())
+  objectId       String     @map("object_id") @db.Uuid
+  object         Object     @relation(fields: [objectId], references: [id], onDelete: Cascade)
+  title          String
+  type           CameraType
+  url            String
+  refreshSec     Int?       @map("refresh_sec")
+  accessTokenRef String?    @map("access_token_ref")
+  isActive       Boolean    @default(true) @map("is_active")
+  isMock         Boolean    @default(false) @map("is_mock")
+
+  @@index([objectId])
+  @@map("camera_sources")
+}
+
+model Contract {
+  id             Int            @id @default(autoincrement())
+  objectId       String?        @map("object_id") @db.Uuid
+  object         Object?        @relation(fields: [objectId], references: [id], onDelete: SetNull)
+  eisId          String?        @map("eis_id")
+  number         String?
+  date           DateTime?      @db.Date
+  price          Decimal?       @db.Decimal(18, 2)
+  stage          String?
+  status         String?
+  customer       String?
+  contractor     String?
+  executionStart DateTime?      @map("execution_start") @db.Date
+  executionEnd   DateTime?      @map("execution_end") @db.Date
+  source         ContractSource @default(mock)
+  fetchedAt      DateTime?      @map("fetched_at")
+  raw            Json?
+  url            String?
+  isMock         Boolean        @default(false) @map("is_mock")
+
+  @@index([objectId])
+  @@map("contracts")
+}
+
+model AppealCategory {
+  id              Int      @id @default(autoincrement())
+  code            String   @unique
+  title           String
+  description     String
+  slaDays         Int      @map("sla_days")
+  requiresComment Boolean  @default(false) @map("requires_comment")
+  isActive        Boolean  @default(true) @map("is_active")
+
+  appeals Appeal[]
+
+  @@map("appeal_categories")
+}
+
+model Appeal {
+  id               String           @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  publicId         String           @unique @map("public_id")
+  objectId         String?          @map("object_id") @db.Uuid
+  object           Object?          @relation(fields: [objectId], references: [id], onDelete: SetNull)
+  categoryId       Int              @map("category_id")
+  category         AppealCategory   @relation(fields: [categoryId], references: [id])
+  municipalityId   String?          @map("municipality_id")
+  geom             Unsupported("geometry(Point,4326)")?
+  addressText      String?          @map("address_text")
+  description      String
+  photos           String[]         @default([])
+  authorType       AppealAuthorType @default(anon) @map("author_type")
+  authorContacts   Json?            @map("author_contacts")
+  status           AppealStatus     @default(new)
+  moderatorNote    String?          @map("moderator_note")
+  posTicketId      String?          @map("pos_ticket_id")
+  esiaRef          String?          @map("esia_ref")
+  descriptionAnonymized String?     @map("description_anonymized")
+  createdAt        DateTime         @default(now()) @map("created_at")
+  resolvedAt       DateTime?        @map("resolved_at")
+  isMock           Boolean          @default(false) @map("is_mock")
+
+  @@index([geom], type: Gist)
+  @@index([objectId])
+  @@index([categoryId])
+  @@index([status])
+  @@map("appeals")
+}
+
+model CitizenSatisfaction {
+  id               Int                @id @default(autoincrement())
+  municipalityId   String             @map("municipality_id")
+  municipality     Municipality       @relation(fields: [municipalityId], references: [id], onDelete: Cascade)
+  industryId       Int?               @map("industry_id")
+  periodStart      DateTime           @map("period_start") @db.Date
+  periodEnd        DateTime           @map("period_end") @db.Date
+  appealsTotal     Int                @map("appeals_total")
+  appealsPositive  Int                @map("appeals_positive")
+  appealsNegative  Int                @map("appeals_negative")
+  avgResponseDays  Decimal?           @map("avg_response_days") @db.Decimal(6, 2)
+  overdueCount     Int                @map("overdue_count")
+  repeatRate       Decimal?           @map("repeat_rate") @db.Decimal(5, 4)
+  satisfactionIndex Decimal?          @map("satisfaction_index") @db.Decimal(5, 2)
+  populationRef    Int?               @map("population_ref")
+  source           SatisfactionSource @default(mock)
+  raw              Json?
+  isMock           Boolean            @default(false) @map("is_mock")
+
+  @@unique([municipalityId, industryId, periodStart])
+  @@index([municipalityId, periodStart])
+  @@map("citizen_satisfaction")
+}
+
+model SocialProvision {
+  id               Int          @id @default(autoincrement())
+  municipalityId   String       @map("municipality_id")
+  municipality     Municipality @relation(fields: [municipalityId], references: [id], onDelete: Cascade)
+  sphere           Sphere
+  actualCapacity   Decimal?     @map("actual_capacity") @db.Decimal(16, 3)
+  normativePer1000 Decimal?     @map("normative_per_1000") @db.Decimal(10, 3)
+  population       Decimal?     @db.Decimal(14, 2)
+  provisionIndex   Decimal?     @map("provision_index") @db.Decimal(8, 4)
+  loadClass        LoadClass    @default(no_data) @map("load_class")
+  objectsCount     Int          @map("objects_count")
+  includePlanned   Boolean      @default(true) @map("include_planned")
+  source           String?
+  isMock           Boolean      @default(false) @map("is_mock")
+  calculatedAt     DateTime     @default(now()) @map("calculated_at")
+
+  @@unique([municipalityId, sphere, includePlanned])
+  @@index([sphere])
+  @@map("social_provision")
+}
+
+model Normative {
+  id            Int      @id @default(autoincrement())
+  sphere        Sphere
+  name          String
+  valuePer1000  Decimal  @map("value_per_1000") @db.Decimal(10, 3)
+  unit          String
+  source        String
+  approvedByCustomer Boolean @default(false) @map("approved_by_customer")
+  validFrom     DateTime @default(now()) @map("valid_from") @db.Date
+
+  @@index([sphere])
+  @@map("normatives")
+}
+
+model IsochroneCache {
+  id           Int      @id @default(autoincrement())
+  objectId     String?  @map("object_id") @db.Uuid
+  object       Object?  @relation(fields: [objectId], references: [id], onDelete: Cascade)
+  transport    String   @default("walking")
+  durationSec  Int      @map("duration_sec")
+  reverse      Boolean  @default(false)
+  geom         Unsupported("geometry(MultiPolygon,4326)")?
+  // точка, от которой строилась зона (при отсутствии geom объекта — центроид МО)
+  startPoint   Unsupported("geometry(Point,4326)")? @map("start_point")
+  // площадь зоны, м² (ST_Area по geography) — для отчёта доступности без пересчёта
+  areaM2       Float?   @map("area_m2")
+  // зона построена от приближённой точки (центроид МО) — §6.3 п.7
+  locationApproximate Boolean @default(false) @map("location_approximate")
+  poiSnapshot  Json?    @map("poi_snapshot")
+  poiGeneratedAt DateTime? @map("poi_generated_at")
+  apiVersion   String?  @map("api_version")
+  // какой провайдер построил зону: live — Isochrone API 2ГИС, mock — демо-модель
+  provider     String   @default("mock")
+  isMock       Boolean  @default(false) @map("is_mock")
+  generatedAt  DateTime @default(now()) @map("generated_at")
+  expiresAt    DateTime @map("expires_at")
+
+  @@unique([objectId, transport, durationSec, reverse])
+  @@index([geom], type: Gist)
+  @@index([objectId, isMock])
+  @@index([expiresAt])
+  // сводное покрытие/«белые пятна» выбирают зоны по (транспорт, время, направление, режим)
+  @@index([transport, durationSec, reverse, isMock])
+  @@map("isochrone_cache")
+}
+
+model AuditLog {
+  id        BigInt   @id @default(autoincrement())
+  actor     String
+  action    String
+  entity    String
+  entityId  String?  @map("entity_id")
+  diff      Json?
+  ip        String?
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@index([entity, entityId])
+  @@index([createdAt])
+  @@map("audit_log")
+}
+
+model User {
+  id          Int      @id @default(autoincrement())
+  role        UserRole @default(public)
+  name        String
+  email       String?  @unique
+  passwordHash String? @map("password_hash")
+  esiaId      String?  @map("esia_id")
+  permissions Json?
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  @@map("users")
+}
