@@ -1,0 +1,44 @@
+{
+  "name": "oks-tula-portal",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Интерактивный портал объектов капитального строительства Тульской области (Министерство строительства Тульской области)",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20"
+  },
+  "workspaces": [
+    "packages/shared",
+    "etl",
+    "apps/api",
+    "apps/web"
+  ],
+  "scripts": {
+    "build": "npm run build -w @oks/shared && npm run build -w @oks/etl && npm run build -w @oks/api && npm run build -w @oks/web",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix",
+    "format": "prettier --write \"**/*.{ts,tsx,json,md,css,html,yml}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,json,md,css,html,yml}\"",
+    "etl:dry": "npm run build -w @oks/shared && npm run dry -w @oks/etl",
+    "etl:geocode": "npm run build -w @oks/shared && npm run build -w @oks/etl && npm run geocode -w @oks/etl",
+    "db:migrate": "npm run migrate -w @oks/api",
+    "db:seed": "npm run seed -w @oks/api",
+    "dev:api": "npm run start:dev -w @oks/api",
+    "dev:web": "npm run dev -w @oks/web"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.10",
+    "@typescript-eslint/eslint-plugin": "^8.44.0",
+    "@typescript-eslint/parser": "^8.44.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "prettier": "^3.6.2",
+    "tsx": "^4.23.1",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}

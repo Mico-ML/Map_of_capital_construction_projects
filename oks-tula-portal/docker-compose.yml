@@ -1,0 +1,114 @@
+# ============================================================================
+# Портал объектов капитального строительства Тульской области.
+# Запуск одной командой:  cp .env.example .env && docker compose up --build
+#
+# Сервисы:
+#   db   — PostgreSQL 16 + PostGIS 3.4 (том pgdata)
+#   api  — NestJS REST API + прокси 2ГИС + ETL/сид при старте (том media)
+#   web  — сборка SPA (React+Vite) и nginx reverse-proxy (/api → api)
+# ============================================================================
+name: oks-tula-portal
+
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-oks}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Задайте POSTGRES_PASSWORD в .env}
+      POSTGRES_DB: ${POSTGRES_DB:-oks_portal}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U ${POSTGRES_USER:-oks} -d ${POSTGRES_DB:-oks_portal}']
+      interval: 5s
+      timeout: 5s
+      retries: 12
+    ports:
+      # только локальный интерфейс — для инструментов разработки (psql, DBeaver)
+      - '127.0.0.1:5433:5432'
+
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-oks}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-oks_portal}?schema=public
+      API_PORT: '3000'
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:8080}
+      ROUTING_API_KEY: ${ROUTING_API_KEY:-}
+      CATALOG_API_KEY: ${CATALOG_API_KEY:-}
+      REGION_ID: ${REGION_ID:-36}
+      GEOCODER_PROVIDER: ${GEOCODER_PROVIDER:-mock}
+      ISOCHRONE_PROVIDER: ${ISOCHRONE_PROVIDER:-mock}
+      POI_PROVIDER: ${POI_PROVIDER:-mock}
+      PROCUREMENT_PROVIDER: ${PROCUREMENT_PROVIDER:-mock}
+      FEEDBACK_PROVIDER: ${FEEDBACK_PROVIDER:-mock}
+      CAMERA_PROVIDER: ${CAMERA_PROVIDER:-mock}
+      IMAGERY_PROVIDER: ${IMAGERY_PROVIDER:-mock}
+      POPULATION_PROVIDER: ${POPULATION_PROVIDER:-mock}
+      APPEALS_PROVIDER: ${APPEALS_PROVIDER:-mock}
+      BOUNDARIES_PROVIDER: ${BOUNDARIES_PROVIDER:-osm}
+      CACHE_TTL_ISOCHRONE_DAYS: ${CACHE_TTL_ISOCHRONE_DAYS:-30}
+      CACHE_TTL_POI_DAYS: ${CACHE_TTL_POI_DAYS:-30}
+      CACHE_TTL_GEOCODE_DAYS: ${CACHE_TTL_GEOCODE_DAYS:-90}
+      CACHE_MAX_ENTRIES: ${CACHE_MAX_ENTRIES:-1000}
+      RATE_LIMIT_GEO_PER_MIN: ${RATE_LIMIT_GEO_PER_MIN:-30}
+      # Ф4: демо-геометрия зон при ISOCHRONE_PROVIDER=mock, лимиты пакетного режима
+      ISOCHRONE_MOCK_GEOMETRY: ${ISOCHRONE_MOCK_GEOMETRY:-true}
+      ISOCHRONE_BATCH_MAX_OBJECTS: ${ISOCHRONE_BATCH_MAX_OBJECTS:-60}
+      ISOCHRONE_PEERS_RADIUS_M: ${ISOCHRONE_PEERS_RADIUS_M:-20000}
+      POI_MAX_PAGES: ${POI_MAX_PAGES:-4}
+      RATE_LIMIT_APPEALS_PER_10MIN: ${RATE_LIMIT_APPEALS_PER_10MIN:-3}
+      MEDIA_DIR: /var/data/media
+      MEDIA_MAX_FILE_MB: ${MEDIA_MAX_FILE_MB:-10}
+      JWT_SECRET: ${JWT_SECRET:-}
+      JWT_TTL_MIN: ${JWT_TTL_MIN:-15}
+      ADMIN_EMAIL: ${ADMIN_EMAIL:-}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-}
+      RUN_MIGRATIONS_ON_START: ${RUN_MIGRATIONS_ON_START:-true}
+      RUN_SEED_ON_START: ${RUN_SEED_ON_START:-true}
+      LOG_LEVEL: ${LOG_LEVEL:-info}
+      ETL_SOURCE_FILE: /app/data/raw/objects.csv
+      ETL_MUNICIPALITIES_GEOJSON: /app/data/geo/municipalities.geojson
+      ETL_POPULATION_CSV: /app/data/mock/population.csv
+    volumes:
+      - media:/var/data/media
+    ports:
+      # прямой доступ к API для отладки (только локально)
+      - '127.0.0.1:3001:3000'
+    healthcheck:
+      test:
+        [
+          'CMD',
+          'node',
+          '-e',
+          "fetch('http://localhost:3000/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))",
+        ]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 60s
+
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+      args:
+        # Публичный ключ MapGL попадает в клиентский бандл при сборке.
+        # Ограничьте ключ списком доменов в кабинете 2ГИС!
+        VITE_MAPGL_KEY: ${VITE_MAPGL_KEY:-}
+        VITE_API_BASE: /api/v1
+    restart: unless-stopped
+    depends_on:
+      - api
+    ports:
+      - '${WEB_PORT:-8080}:80'
+
+volumes:
+  pgdata:
+  media:
