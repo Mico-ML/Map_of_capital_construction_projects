@@ -1,0 +1,2172 @@
+[
+  {
+    "sourceRowNumber": 1,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.385349,
+      54.730338
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.385349,
+      54.730338
+    ],
+    "locationApproximate": false,
+    "municipalityId": "zaoksky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 2,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.062317,
+      54.499135
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.062317,
+      54.499135
+    ],
+    "locationApproximate": false,
+    "municipalityId": "aleksin",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 3,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      38.280501,
+      54.012184
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      38.280501,
+      54.012184
+    ],
+    "locationApproximate": false,
+    "municipalityId": "novomoskovsk",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 4,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.645066,
+      54.181272
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.645066,
+      54.181272
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 5,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.475617,
+      54.182213
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.475617,
+      54.182213
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 6,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.93782,
+      53.980644
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.93782,
+      53.980644
+    ],
+    "locationApproximate": false,
+    "municipalityId": "kireevsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 7,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_conflict",
+    "point": [
+      37.700203,
+      54.488002
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": "low",
+    "displayPoint": [
+      37.700203,
+      54.488002
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": true,
+    "notes": [
+      "КОНФЛИКТ ГЕОМЕТРИИ: точка попадает в «Ясногорский», а заявлено «г. Тула». Координата CSV сохранена, случай отправлен на модерацию (обратное геокодирование: §6.3 п.4).",
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": true
+  },
+  {
+    "sourceRowNumber": 8,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.601169,
+      54.175187
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.601169,
+      54.175187
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 9,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      38.309131,
+      54.013686
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      38.309131,
+      54.013686
+    ],
+    "locationApproximate": false,
+    "municipalityId": "novomoskovsk",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 10,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.546246,
+      54.173648
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.546246,
+      54.173648
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 11,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.518469,
+      54.203648
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.518469,
+      54.203648
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 12,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.594991,
+      54.177653
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.594991,
+      54.177653
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 13,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.603832,
+      54.182121
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.603832,
+      54.182121
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 14,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.52713,
+      54.197689
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.52713,
+      54.197689
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 15,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.483616,
+      54.21549
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.483616,
+      54.21549
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 16,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      38.661185,
+      53.433417
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      38.661185,
+      53.433417
+    ],
+    "locationApproximate": false,
+    "municipalityId": "kurkinsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 17,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.700431,
+      54.487971
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.700431,
+      54.487971
+    ],
+    "locationApproximate": false,
+    "municipalityId": "yasnogorsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 18,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.63911,
+      54.183723
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.63911,
+      54.183723
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 19,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      38.6612,
+      53.432934
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      38.6612,
+      53.432934
+    ],
+    "locationApproximate": false,
+    "municipalityId": "kurkinsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 20,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      38.252212,
+      54.345455
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      38.252212,
+      54.345455
+    ],
+    "locationApproximate": false,
+    "municipalityId": "venevsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 21,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      36.990474,
+      53.434819
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      36.990474,
+      53.434819
+    ],
+    "locationApproximate": false,
+    "municipalityId": "chernsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 22,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.597316,
+      54.192034
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.597316,
+      54.192034
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 23,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.644062,
+      54.184006
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.644062,
+      54.184006
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 24,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      38.738284,
+      54.142941
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      38.738284,
+      54.142941
+    ],
+    "locationApproximate": false,
+    "municipalityId": "novomoskovsk",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 25,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      36.907355,
+      53.451441
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      36.907355,
+      53.451441
+    ],
+    "locationApproximate": false,
+    "municipalityId": "chernsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 26,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.616917,
+      54.19171
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.616917,
+      54.19171
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 27,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      38.289153,
+      53.96853
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      38.289153,
+      53.96853
+    ],
+    "locationApproximate": false,
+    "municipalityId": "donskoy",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 28,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.577437,
+      54.103757
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.577437,
+      54.103757
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 29,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.623874,
+      53.929176
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.623874,
+      53.929176
+    ],
+    "locationApproximate": false,
+    "municipalityId": "shchyokinsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 30,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.556694,
+      54.192438
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.556694,
+      54.192438
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 31,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.5285,
+      54.159662
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.5285,
+      54.159662
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 32,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.560018,
+      54.24673
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.560018,
+      54.24673
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 33,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.49586,
+      54.266123
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.49586,
+      54.266123
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 34,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      38.335409,
+      53.968173
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      38.335409,
+      53.968173
+    ],
+    "locationApproximate": false,
+    "municipalityId": "donskoy",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 35,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.450651,
+      54.28936
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.450651,
+      54.28936
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 36,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.510167,
+      54.178798
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.510167,
+      54.178798
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 37,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.553755,
+      54.156065
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.553755,
+      54.156065
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 38,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      38.168838,
+      54.136548
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      38.168838,
+      54.136548
+    ],
+    "locationApproximate": false,
+    "municipalityId": "venevsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 39,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.074837,
+      54.524329
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.074837,
+      54.524329
+    ],
+    "locationApproximate": false,
+    "municipalityId": "aleksin",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 40,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      36.66322,
+      53.743167
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      36.66322,
+      53.743167
+    ],
+    "locationApproximate": false,
+    "municipalityId": "arsenevsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 41,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.52713,
+      54.197689
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.52713,
+      54.197689
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 42,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      38.550602,
+      53.832485
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      38.550602,
+      53.832485
+    ],
+    "locationApproximate": false,
+    "municipalityId": "kimovsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 43,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      38.071033,
+      53.768017
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      38.071033,
+      53.768017
+    ],
+    "locationApproximate": false,
+    "municipalityId": "bogoroditsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 44,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      36.662493,
+      53.740238
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      36.662493,
+      53.740238
+    ],
+    "locationApproximate": false,
+    "municipalityId": "arsenevsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 45,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.700298,
+      53.263236
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.700298,
+      53.263236
+    ],
+    "locationApproximate": false,
+    "municipalityId": "kamensky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 46,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.735898,
+      53.90936
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.735898,
+      53.90936
+    ],
+    "locationApproximate": false,
+    "municipalityId": "kireevsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 47,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      38.171105,
+      53.991084
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      38.171105,
+      53.991084
+    ],
+    "locationApproximate": false,
+    "municipalityId": "uzlovsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 48,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.570159,
+      53.93822
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.570159,
+      53.93822
+    ],
+    "locationApproximate": false,
+    "municipalityId": "shchyokinsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 49,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.915468,
+      53.22528
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.915468,
+      53.22528
+    ],
+    "locationApproximate": false,
+    "municipalityId": "kamensky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 50,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      36.690345,
+      53.740082
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      36.690345,
+      53.740082
+    ],
+    "locationApproximate": false,
+    "municipalityId": "arsenevsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 51,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      36.464765,
+      53.552721
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      36.464765,
+      53.552721
+    ],
+    "locationApproximate": false,
+    "municipalityId": "slaviy",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 52,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      38.125059,
+      53.758817
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      38.125059,
+      53.758817
+    ],
+    "locationApproximate": false,
+    "municipalityId": "bogoroditsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 53,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      36.938644,
+      54.078199
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      36.938644,
+      54.078199
+    ],
+    "locationApproximate": false,
+    "municipalityId": "dubensky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 54,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "inferred_from_name",
+    "point": null,
+    "geocodeSource": "inferred_from_name",
+    "geocodeConfidence": "low",
+    "displayPoint": [
+      37.5949,
+      54.2311
+    ],
+    "locationApproximate": true,
+    "municipalityId": "tula",
+    "municipalitySource": "inferred_name",
+    "municipalityConflict": false,
+    "notes": [
+      "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 55,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.397683,
+      54.732719
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.397683,
+      54.732719
+    ],
+    "locationApproximate": false,
+    "municipalityId": "zaoksky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 56,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.60982,
+      54.188397
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.60982,
+      54.188397
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "inferred_address",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 57,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      38.161251,
+      53.969845
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      38.161251,
+      53.969845
+    ],
+    "locationApproximate": false,
+    "municipalityId": "uzlovsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 58,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "inferred_from_name",
+    "point": null,
+    "geocodeSource": "inferred_from_name",
+    "geocodeConfidence": "low",
+    "displayPoint": [
+      38.5918,
+      53.4676
+    ],
+    "locationApproximate": true,
+    "municipalityId": "kurkinsky",
+    "municipalitySource": "inferred_name",
+    "municipalityConflict": false,
+    "notes": [
+      "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 59,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "pending_key",
+    "point": null,
+    "geocodeSource": null,
+    "geocodeConfidence": null,
+    "displayPoint": [
+      38.2682,
+      53.9092
+    ],
+    "locationApproximate": true,
+    "municipalityId": "uzlovsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "геокодинг не выполнялся: демо-режим (GEOCODER_PROVIDER=mock) — координаты не выдумываются, объект в очереди геокодирования"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 60,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "pending_key",
+    "point": null,
+    "geocodeSource": null,
+    "geocodeConfidence": null,
+    "displayPoint": [
+      38.6755,
+      53.8399
+    ],
+    "locationApproximate": true,
+    "municipalityId": "kimovsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "геокодинг не выполнялся: демо-режим (GEOCODER_PROVIDER=mock) — координаты не выдумываются, объект в очереди геокодирования"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 61,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "pending_key",
+    "point": null,
+    "geocodeSource": null,
+    "geocodeConfidence": null,
+    "displayPoint": [
+      38.2682,
+      53.9092
+    ],
+    "locationApproximate": true,
+    "municipalityId": "uzlovsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "геокодинг не выполнялся: демо-режим (GEOCODER_PROVIDER=mock) — координаты не выдумываются, объект в очереди геокодирования"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 62,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "pending_key",
+    "point": null,
+    "geocodeSource": null,
+    "geocodeConfidence": null,
+    "displayPoint": [
+      38.2682,
+      53.9092
+    ],
+    "locationApproximate": true,
+    "municipalityId": "uzlovsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "геокодинг не выполнялся: демо-режим (GEOCODER_PROVIDER=mock) — координаты не выдумываются, объект в очереди геокодирования"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 63,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "pending_key",
+    "point": null,
+    "geocodeSource": null,
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.5949,
+      54.2311
+    ],
+    "locationApproximate": true,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "геокодинг не выполнялся: демо-режим (GEOCODER_PROVIDER=mock) — координаты не выдумываются, объект в очереди геокодирования"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 64,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "pending_key",
+    "point": null,
+    "geocodeSource": null,
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.6489,
+      53.5748
+    ],
+    "locationApproximate": true,
+    "municipalityId": "teplo-ogarevsky",
+    "municipalitySource": "inferred_address",
+    "municipalityConflict": false,
+    "notes": [
+      "геокодинг не выполнялся: демо-режим (GEOCODER_PROVIDER=mock) — координаты не выдумываются, объект в очереди геокодирования"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 65,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "inferred_from_name",
+    "point": null,
+    "geocodeSource": "inferred_from_name",
+    "geocodeConfidence": "low",
+    "displayPoint": [
+      38.3457,
+      53.973
+    ],
+    "locationApproximate": true,
+    "municipalityId": "donskoy",
+    "municipalitySource": "inferred_name",
+    "municipalityConflict": false,
+    "notes": [
+      "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 66,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "municipality_centroid",
+    "point": null,
+    "geocodeSource": null,
+    "geocodeConfidence": null,
+    "displayPoint": [
+      36.4096,
+      54.1229
+    ],
+    "locationApproximate": true,
+    "municipalityId": "suvorovsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "точное местоположение отсутствует — отображается центроид МО («местоположение уточняется»)"
+    ],
+    "needsModeration": true
+  },
+  {
+    "sourceRowNumber": 67,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "inferred_from_name",
+    "point": null,
+    "geocodeSource": "inferred_from_name",
+    "geocodeConfidence": "low",
+    "displayPoint": [
+      37.8791,
+      54.022
+    ],
+    "locationApproximate": true,
+    "municipalityId": "kireevsky",
+    "municipalitySource": "inferred_name",
+    "municipalityConflict": false,
+    "notes": [
+      "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 68,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "inferred_from_name",
+    "point": null,
+    "geocodeSource": "inferred_from_name",
+    "geocodeConfidence": "low",
+    "displayPoint": [
+      37.8791,
+      54.022
+    ],
+    "locationApproximate": true,
+    "municipalityId": "kireevsky",
+    "municipalitySource": "inferred_name",
+    "municipalityConflict": false,
+    "notes": [
+      "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 69,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "pending_key",
+    "point": null,
+    "geocodeSource": null,
+    "geocodeConfidence": null,
+    "displayPoint": [
+      38.1952,
+      54.4035
+    ],
+    "locationApproximate": true,
+    "municipalityId": "venevsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "геокодинг не выполнялся: демо-режим (GEOCODER_PROVIDER=mock) — координаты не выдумываются, объект в очереди геокодирования"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 70,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "pending_key",
+    "point": null,
+    "geocodeSource": null,
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.5949,
+      54.2311
+    ],
+    "locationApproximate": true,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "геокодинг не выполнялся: демо-режим (GEOCODER_PROVIDER=mock) — координаты не выдумываются, объект в очереди геокодирования"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 71,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "municipality_centroid",
+    "point": null,
+    "geocodeSource": null,
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.5949,
+      54.2311
+    ],
+    "locationApproximate": true,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "точное местоположение отсутствует — отображается центроид МО («местоположение уточняется»)"
+    ],
+    "needsModeration": true
+  },
+  {
+    "sourceRowNumber": 72,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "pending_key",
+    "point": null,
+    "geocodeSource": null,
+    "geocodeConfidence": null,
+    "displayPoint": [
+      38.2333,
+      53.7164
+    ],
+    "locationApproximate": true,
+    "municipalityId": "bogoroditsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "геокодинг не выполнялся: демо-режим (GEOCODER_PROVIDER=mock) — координаты не выдумываются, объект в очереди геокодирования"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 73,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "pending_key",
+    "point": null,
+    "geocodeSource": null,
+    "geocodeConfidence": null,
+    "displayPoint": [
+      38.2682,
+      53.9092
+    ],
+    "locationApproximate": true,
+    "municipalityId": "uzlovsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "геокодинг не выполнялся: демо-режим (GEOCODER_PROVIDER=mock) — координаты не выдумываются, объект в очереди геокодирования"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 74,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "inferred_from_name",
+    "point": null,
+    "geocodeSource": "inferred_from_name",
+    "geocodeConfidence": "low",
+    "displayPoint": [
+      37.5949,
+      54.2311
+    ],
+    "locationApproximate": true,
+    "municipalityId": "tula",
+    "municipalitySource": "inferred_name",
+    "municipalityConflict": false,
+    "notes": [
+      "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 75,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "inferred_from_name",
+    "point": null,
+    "geocodeSource": "inferred_from_name",
+    "geocodeConfidence": "low",
+    "displayPoint": [
+      37.5949,
+      54.2311
+    ],
+    "locationApproximate": true,
+    "municipalityId": "tula",
+    "municipalitySource": "inferred_name",
+    "municipalityConflict": false,
+    "notes": [
+      "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 76,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "pending_key",
+    "point": null,
+    "geocodeSource": null,
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.5949,
+      54.2311
+    ],
+    "locationApproximate": true,
+    "municipalityId": "tula",
+    "municipalitySource": "inferred_address",
+    "municipalityConflict": false,
+    "notes": [
+      "геокодинг не выполнялся: демо-режим (GEOCODER_PROVIDER=mock) — координаты не выдумываются, объект в очереди геокодирования"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 77,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.60982,
+      54.188397
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.60982,
+      54.188397
+    ],
+    "locationApproximate": false,
+    "municipalityId": "tula",
+    "municipalitySource": "inferred_address",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 78,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "csv_kept_unverified",
+    "point": [
+      37.690246,
+      54.48841
+    ],
+    "geocodeSource": "csv",
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.690246,
+      54.48841
+    ],
+    "locationApproximate": false,
+    "municipalityId": "yasnogorsky",
+    "municipalitySource": "inferred_address",
+    "municipalityConflict": false,
+    "notes": [
+      "верификация обратным геокодированием не выполнена (демо-режим без CATALOG_API_KEY)"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 79,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "inferred_from_name",
+    "point": null,
+    "geocodeSource": "inferred_from_name",
+    "geocodeConfidence": "low",
+    "displayPoint": [
+      37.5949,
+      54.2311
+    ],
+    "locationApproximate": true,
+    "municipalityId": "tula",
+    "municipalitySource": "inferred_name",
+    "municipalityConflict": false,
+    "notes": [
+      "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 80,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "inferred_from_name",
+    "point": null,
+    "geocodeSource": "inferred_from_name",
+    "geocodeConfidence": "low",
+    "displayPoint": [
+      37.5949,
+      54.2311
+    ],
+    "locationApproximate": true,
+    "municipalityId": "tula",
+    "municipalitySource": "inferred_name",
+    "municipalityConflict": false,
+    "notes": [
+      "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 81,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "inferred_from_name",
+    "point": null,
+    "geocodeSource": "inferred_from_name",
+    "geocodeConfidence": "low",
+    "displayPoint": [
+      37.2431,
+      53.5999
+    ],
+    "locationApproximate": true,
+    "municipalityId": "plavsky",
+    "municipalitySource": "inferred_name",
+    "municipalityConflict": false,
+    "notes": [
+      "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 82,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "inferred_from_name",
+    "point": null,
+    "geocodeSource": "inferred_from_name",
+    "geocodeConfidence": "low",
+    "displayPoint": [
+      37.6489,
+      53.5748
+    ],
+    "locationApproximate": true,
+    "municipalityId": "teplo-ogarevsky",
+    "municipalitySource": "inferred_name",
+    "municipalityConflict": false,
+    "notes": [
+      "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 83,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "inferred_from_name",
+    "point": null,
+    "geocodeSource": "inferred_from_name",
+    "geocodeConfidence": "low",
+    "displayPoint": [
+      37.5949,
+      54.2311
+    ],
+    "locationApproximate": true,
+    "municipalityId": "tula",
+    "municipalitySource": "inferred_name",
+    "municipalityConflict": false,
+    "notes": [
+      "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 84,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "inferred_from_name",
+    "point": null,
+    "geocodeSource": "inferred_from_name",
+    "geocodeConfidence": "low",
+    "displayPoint": [
+      38.0709,
+      53.4942
+    ],
+    "locationApproximate": true,
+    "municipalityId": "volovsky",
+    "municipalitySource": "inferred_name",
+    "municipalityConflict": false,
+    "notes": [
+      "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 85,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "inferred_from_name",
+    "point": null,
+    "geocodeSource": "inferred_from_name",
+    "geocodeConfidence": "low",
+    "displayPoint": [
+      38.4405,
+      54.1328
+    ],
+    "locationApproximate": true,
+    "municipalityId": "novomoskovsk",
+    "municipalitySource": "inferred_name",
+    "municipalityConflict": false,
+    "notes": [
+      "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 86,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "inferred_from_name",
+    "point": null,
+    "geocodeSource": "inferred_from_name",
+    "geocodeConfidence": "low",
+    "displayPoint": [
+      37.4834,
+      54.668
+    ],
+    "locationApproximate": true,
+    "municipalityId": "zaoksky",
+    "municipalitySource": "inferred_name",
+    "municipalityConflict": false,
+    "notes": [
+      "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 87,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "inferred_from_name",
+    "point": null,
+    "geocodeSource": "inferred_from_name",
+    "geocodeConfidence": "low",
+    "displayPoint": [
+      36.9598,
+      54.1486
+    ],
+    "locationApproximate": true,
+    "municipalityId": "dubensky",
+    "municipalitySource": "inferred_name",
+    "municipalityConflict": false,
+    "notes": [
+      "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 88,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "inferred_from_name",
+    "point": null,
+    "geocodeSource": "inferred_from_name",
+    "geocodeConfidence": "low",
+    "displayPoint": [
+      37.794,
+      54.5819
+    ],
+    "locationApproximate": true,
+    "municipalityId": "yasnogorsky",
+    "municipalitySource": "inferred_name",
+    "municipalityConflict": false,
+    "notes": [
+      "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 89,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "inferred_from_name",
+    "point": null,
+    "geocodeSource": "inferred_from_name",
+    "geocodeConfidence": "low",
+    "displayPoint": [
+      37.7191,
+      53.2411
+    ],
+    "locationApproximate": true,
+    "municipalityId": "kamensky",
+    "municipalitySource": "inferred_name",
+    "municipalityConflict": false,
+    "notes": [
+      "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 90,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "pending_key",
+    "point": null,
+    "geocodeSource": null,
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.5949,
+      54.2311
+    ],
+    "locationApproximate": true,
+    "municipalityId": "tula",
+    "municipalitySource": "inferred_address",
+    "municipalityConflict": false,
+    "notes": [
+      "геокодинг не выполнялся: демо-режим (GEOCODER_PROVIDER=mock) — координаты не выдумываются, объект в очереди геокодирования"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 91,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "pending_key",
+    "point": null,
+    "geocodeSource": null,
+    "geocodeConfidence": null,
+    "displayPoint": [
+      36.7549,
+      53.943
+    ],
+    "locationApproximate": true,
+    "municipalityId": "odoevsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "геокодинг не выполнялся: демо-режим (GEOCODER_PROVIDER=mock) — координаты не выдумываются, объект в очереди геокодирования"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 92,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "pending_key",
+    "point": null,
+    "geocodeSource": null,
+    "geocodeConfidence": null,
+    "displayPoint": [
+      38.2682,
+      53.9092
+    ],
+    "locationApproximate": true,
+    "municipalityId": "uzlovsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "геокодинг не выполнялся: демо-режим (GEOCODER_PROVIDER=mock) — координаты не выдумываются, объект в очереди геокодирования"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 93,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "pending_key",
+    "point": null,
+    "geocodeSource": null,
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.5949,
+      54.2311
+    ],
+    "locationApproximate": true,
+    "municipalityId": "tula",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "геокодинг не выполнялся: демо-режим (GEOCODER_PROVIDER=mock) — координаты не выдумываются, объект в очереди геокодирования"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 94,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "pending_key",
+    "point": null,
+    "geocodeSource": null,
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.8791,
+      54.022
+    ],
+    "locationApproximate": true,
+    "municipalityId": "kireevsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "геокодинг не выполнялся: демо-режим (GEOCODER_PROVIDER=mock) — координаты не выдумываются, объект в очереди геокодирования"
+    ],
+    "needsModeration": false
+  },
+  {
+    "sourceRowNumber": 95,
+    "candidates": [],
+    "reverseCheck": null,
+    "decision": "pending_key",
+    "point": null,
+    "geocodeSource": null,
+    "geocodeConfidence": null,
+    "displayPoint": [
+      37.8791,
+      54.022
+    ],
+    "locationApproximate": true,
+    "municipalityId": "kireevsky",
+    "municipalitySource": "csv_column",
+    "municipalityConflict": false,
+    "notes": [
+      "геокодинг не выполнялся: демо-режим (GEOCODER_PROVIDER=mock) — координаты не выдумываются, объект в очереди геокодирования"
+    ],
+    "needsModeration": false
+  }
+]
