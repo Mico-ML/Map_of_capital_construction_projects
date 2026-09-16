@@ -1,0 +1,457 @@
+{
+  "generatedAt": "2026-09-12",
+  "media": [
+    {
+      "sourceRowNumber": 1,
+      "kind": "before_sat",
+      "takenAt": "2020-06-01",
+      "url": "/mock-media/1_before_sat_20200601.svg",
+      "year": 2020,
+      "caption": "Место до начала работ (2020)"
+    },
+    {
+      "sourceRowNumber": 1,
+      "kind": "process_photo",
+      "takenAt": "2022-09-27",
+      "url": "/mock-media/1_process_photo_20220927.svg",
+      "year": 2022,
+      "caption": "Ход строительства (2022-09-27)"
+    },
+    {
+      "sourceRowNumber": 1,
+      "kind": "process_photo",
+      "takenAt": "2022-10-15",
+      "url": "/mock-media/1_process_photo_20221015.svg",
+      "year": 2022,
+      "caption": "Ход строительства (2022-10-15)"
+    },
+    {
+      "sourceRowNumber": 1,
+      "kind": "after_render",
+      "takenAt": "2022-10-28",
+      "url": "/mock-media/1_after_render_20221028.svg",
+      "year": 2022,
+      "bounds": {
+        "west": 37.383348999999995,
+        "south": 54.729138000000006,
+        "east": 37.387349,
+        "north": 54.731538
+      },
+      "caption": "Рендер «После» — введён в эксплуатацию"
+    },
+    {
+      "sourceRowNumber": 5,
+      "kind": "before_sat",
+      "takenAt": "2021-06-01",
+      "url": "/mock-media/5_before_sat_20210601.svg",
+      "year": 2021,
+      "caption": "Место до начала работ (2021)"
+    },
+    {
+      "sourceRowNumber": 5,
+      "kind": "process_photo",
+      "takenAt": "2021-11-25",
+      "url": "/mock-media/5_process_photo_20211125.svg",
+      "year": 2021,
+      "caption": "Ход строительства (2021-11-25)"
+    },
+    {
+      "sourceRowNumber": 5,
+      "kind": "process_photo",
+      "takenAt": "2022-07-23",
+      "url": "/mock-media/5_process_photo_20220723.svg",
+      "year": 2022,
+      "caption": "Ход строительства (2022-07-23)"
+    },
+    {
+      "sourceRowNumber": 5,
+      "kind": "after_render",
+      "takenAt": "2022-11-30",
+      "url": "/mock-media/5_after_render_20221130.svg",
+      "year": 2022,
+      "bounds": {
+        "west": 37.473617,
+        "south": 54.181013,
+        "east": 37.477617,
+        "north": 54.183412999999994
+      },
+      "caption": "Рендер «После» — введён в эксплуатацию"
+    },
+    {
+      "sourceRowNumber": 7,
+      "kind": "before_sat",
+      "takenAt": "2022-06-01",
+      "url": "/mock-media/7_before_sat_20220601.svg",
+      "year": 2022,
+      "caption": "Место до начала работ (2022)"
+    },
+    {
+      "sourceRowNumber": 7,
+      "kind": "process_photo",
+      "takenAt": "2022-08-29",
+      "url": "/mock-media/7_process_photo_20220829.svg",
+      "year": 2022,
+      "caption": "Ход строительства (2022-08-29)"
+    },
+    {
+      "sourceRowNumber": 7,
+      "kind": "process_photo",
+      "takenAt": "2022-09-17",
+      "url": "/mock-media/7_process_photo_20220917.svg",
+      "year": 2022,
+      "caption": "Ход строительства (2022-09-17)"
+    },
+    {
+      "sourceRowNumber": 7,
+      "kind": "after_render",
+      "takenAt": "2022-10-01",
+      "url": "/mock-media/7_after_render_20221001.svg",
+      "year": 2022,
+      "bounds": {
+        "west": 37.698203,
+        "south": 54.486802000000004,
+        "east": 37.702203000000004,
+        "north": 54.489202
+      },
+      "caption": "Рендер «После» — введён в эксплуатацию"
+    },
+    {
+      "sourceRowNumber": 9,
+      "kind": "before_sat",
+      "takenAt": "2021-06-01",
+      "url": "/mock-media/9_before_sat_20210601.svg",
+      "year": 2021,
+      "caption": "Место до начала работ (2021)"
+    },
+    {
+      "sourceRowNumber": 9,
+      "kind": "process_photo",
+      "takenAt": "2021-08-07",
+      "url": "/mock-media/9_process_photo_20210807.svg",
+      "year": 2021,
+      "caption": "Ход строительства (2021-08-07)"
+    },
+    {
+      "sourceRowNumber": 9,
+      "kind": "process_photo",
+      "takenAt": "2022-06-09",
+      "url": "/mock-media/9_process_photo_20220609.svg",
+      "year": 2022,
+      "caption": "Ход строительства (2022-06-09)"
+    },
+    {
+      "sourceRowNumber": 9,
+      "kind": "after_render",
+      "takenAt": "2022-12-31",
+      "url": "/mock-media/9_after_render_20221231.svg",
+      "year": 2022,
+      "bounds": {
+        "west": 38.307131,
+        "south": 54.012486,
+        "east": 38.311131,
+        "north": 54.014886
+      },
+      "caption": "Рендер «После» — введён в эксплуатацию"
+    },
+    {
+      "sourceRowNumber": 12,
+      "kind": "before_sat",
+      "takenAt": "2021-06-01",
+      "url": "/mock-media/12_before_sat_20210601.svg",
+      "year": 2021,
+      "caption": "Место до начала работ (2021)"
+    },
+    {
+      "sourceRowNumber": 12,
+      "kind": "process_photo",
+      "takenAt": "2022-10-17",
+      "url": "/mock-media/12_process_photo_20221017.svg",
+      "year": 2022,
+      "caption": "Ход строительства (2022-10-17)"
+    },
+    {
+      "sourceRowNumber": 12,
+      "kind": "process_photo",
+      "takenAt": "2023-04-25",
+      "url": "/mock-media/12_process_photo_20230425.svg",
+      "year": 2023,
+      "caption": "Ход строительства (2023-04-25)"
+    },
+    {
+      "sourceRowNumber": 12,
+      "kind": "after_render",
+      "takenAt": "2023-08-31",
+      "url": "/mock-media/12_after_render_20230831.svg",
+      "year": 2023,
+      "bounds": {
+        "west": 37.592991,
+        "south": 54.176453,
+        "east": 37.596991,
+        "north": 54.178853
+      },
+      "caption": "Рендер «После» — введён в эксплуатацию"
+    },
+    {
+      "sourceRowNumber": 55,
+      "kind": "before_sat",
+      "takenAt": "2026-06-01",
+      "url": "/mock-media/55_before_sat_20260601.svg",
+      "year": 2026,
+      "caption": "Место до начала работ (2026)"
+    },
+    {
+      "sourceRowNumber": 55,
+      "kind": "process_photo",
+      "takenAt": "2026-07-20",
+      "url": "/mock-media/55_process_photo_20260720.svg",
+      "year": 2026,
+      "caption": "Ход строительства (2026-07-20)"
+    },
+    {
+      "sourceRowNumber": 55,
+      "kind": "process_photo",
+      "takenAt": "2027-03-22",
+      "url": "/mock-media/55_process_photo_20270322.svg",
+      "year": 2027,
+      "caption": "Ход строительства (2027-03-22)"
+    },
+    {
+      "sourceRowNumber": 55,
+      "kind": "after_render",
+      "takenAt": "2028-12-31",
+      "url": "/mock-media/55_after_render_20281231.svg",
+      "year": 2028,
+      "bounds": {
+        "west": 37.395683,
+        "south": 54.731519000000006,
+        "east": 37.399683,
+        "north": 54.733919
+      },
+      "caption": "Рендер «После» — проектный облик (плановый ввод)"
+    },
+    {
+      "sourceRowNumber": 56,
+      "kind": "before_sat",
+      "takenAt": "2026-06-01",
+      "url": "/mock-media/56_before_sat_20260601.svg",
+      "year": 2026,
+      "caption": "Место до начала работ (2026)"
+    },
+    {
+      "sourceRowNumber": 56,
+      "kind": "process_photo",
+      "takenAt": "2026-05-18",
+      "url": "/mock-media/56_process_photo_20260518.svg",
+      "year": 2026,
+      "caption": "Ход строительства (2026-05-18)"
+    },
+    {
+      "sourceRowNumber": 56,
+      "kind": "process_photo",
+      "takenAt": "2026-08-16",
+      "url": "/mock-media/56_process_photo_20260816.svg",
+      "year": 2026,
+      "caption": "Ход строительства (2026-08-16)"
+    },
+    {
+      "sourceRowNumber": 56,
+      "kind": "after_render",
+      "takenAt": "2025-12-31",
+      "url": "/mock-media/56_after_render_20251231.svg",
+      "year": 2025,
+      "bounds": {
+        "west": 37.60782,
+        "south": 54.187197000000005,
+        "east": 37.61182,
+        "north": 54.189597
+      },
+      "caption": "Рендер «После» — проектный облик (плановый ввод)"
+    },
+    {
+      "sourceRowNumber": 57,
+      "kind": "before_sat",
+      "takenAt": "2026-06-01",
+      "url": "/mock-media/57_before_sat_20260601.svg",
+      "year": 2026,
+      "caption": "Место до начала работ (2026)"
+    },
+    {
+      "sourceRowNumber": 57,
+      "kind": "process_photo",
+      "takenAt": "2026-06-29",
+      "url": "/mock-media/57_process_photo_20260629.svg",
+      "year": 2026,
+      "caption": "Ход строительства (2026-06-29)"
+    },
+    {
+      "sourceRowNumber": 57,
+      "kind": "process_photo",
+      "takenAt": "2026-09-17",
+      "url": "/mock-media/57_process_photo_20260917.svg",
+      "year": 2026,
+      "caption": "Ход строительства (2026-09-17)"
+    },
+    {
+      "sourceRowNumber": 57,
+      "kind": "after_render",
+      "takenAt": "2026-12-31",
+      "url": "/mock-media/57_after_render_20261231.svg",
+      "year": 2026,
+      "bounds": {
+        "west": 38.159251,
+        "south": 53.968645,
+        "east": 38.163251,
+        "north": 53.971045
+      },
+      "caption": "Рендер «После» — проектный облик (плановый ввод)"
+    },
+    {
+      "sourceRowNumber": 77,
+      "kind": "before_sat",
+      "takenAt": "2024-06-01",
+      "url": "/mock-media/77_before_sat_20240601.svg",
+      "year": 2024,
+      "caption": "Место до начала работ (2024)"
+    },
+    {
+      "sourceRowNumber": 77,
+      "kind": "process_photo",
+      "takenAt": "2024-11-28",
+      "url": "/mock-media/77_process_photo_20241128.svg",
+      "year": 2024,
+      "caption": "Ход строительства (2024-11-28)"
+    },
+    {
+      "sourceRowNumber": 77,
+      "kind": "process_photo",
+      "takenAt": "2025-07-06",
+      "url": "/mock-media/77_process_photo_20250706.svg",
+      "year": 2025,
+      "caption": "Ход строительства (2025-07-06)"
+    },
+    {
+      "sourceRowNumber": 77,
+      "kind": "after_render",
+      "takenAt": "2025-12-31",
+      "url": "/mock-media/77_after_render_20251231.svg",
+      "year": 2025,
+      "bounds": {
+        "west": 37.60782,
+        "south": 54.187197000000005,
+        "east": 37.61182,
+        "north": 54.189597
+      },
+      "caption": "Рендер «После» — проектный облик (плановый ввод)"
+    },
+    {
+      "sourceRowNumber": 78,
+      "kind": "before_sat",
+      "takenAt": "2018-06-01",
+      "url": "/mock-media/78_before_sat_20180601.svg",
+      "year": 2018,
+      "caption": "Место до начала работ (2018)"
+    },
+    {
+      "sourceRowNumber": 78,
+      "kind": "process_photo",
+      "takenAt": "2019-03-15",
+      "url": "/mock-media/78_process_photo_20190315.svg",
+      "year": 2019,
+      "caption": "Ход строительства (2019-03-15)"
+    },
+    {
+      "sourceRowNumber": 78,
+      "kind": "process_photo",
+      "takenAt": "2020-04-15",
+      "url": "/mock-media/78_process_photo_20200415.svg",
+      "year": 2020,
+      "caption": "Ход строительства (2020-04-15)"
+    },
+    {
+      "sourceRowNumber": 78,
+      "kind": "after_render",
+      "takenAt": "2025-12-31",
+      "url": "/mock-media/78_after_render_20251231.svg",
+      "year": 2025,
+      "bounds": {
+        "west": 37.688246,
+        "south": 54.487210000000005,
+        "east": 37.692246000000004,
+        "north": 54.48961
+      },
+      "caption": "Рендер «После» — проектный облик (плановый ввод)"
+    }
+  ],
+  "cameras": [
+    {
+      "sourceRowNumber": 55,
+      "title": "Камера стройплощадки (демо) #1",
+      "type": "snapshot",
+      "url": "/mock-media/55_camera_0.svg",
+      "refreshSec": 30
+    },
+    {
+      "sourceRowNumber": 55,
+      "title": "Камера стройплощадки (демо) #2",
+      "type": "snapshot",
+      "url": "/mock-media/55_camera_1.svg",
+      "refreshSec": 30
+    },
+    {
+      "sourceRowNumber": 56,
+      "title": "Камера стройплощадки (демо) #1",
+      "type": "snapshot",
+      "url": "/mock-media/56_camera_0.svg",
+      "refreshSec": 30
+    },
+    {
+      "sourceRowNumber": 56,
+      "title": "Камера стройплощадки (демо) #2",
+      "type": "snapshot",
+      "url": "/mock-media/56_camera_1.svg",
+      "refreshSec": 30
+    },
+    {
+      "sourceRowNumber": 57,
+      "title": "Камера стройплощадки (демо) #1",
+      "type": "snapshot",
+      "url": "/mock-media/57_camera_0.svg",
+      "refreshSec": 30
+    },
+    {
+      "sourceRowNumber": 57,
+      "title": "Камера стройплощадки (демо) #2",
+      "type": "snapshot",
+      "url": "/mock-media/57_camera_1.svg",
+      "refreshSec": 30
+    },
+    {
+      "sourceRowNumber": 77,
+      "title": "Камера стройплощадки (демо) #1",
+      "type": "snapshot",
+      "url": "/mock-media/77_camera_0.svg",
+      "refreshSec": 30
+    },
+    {
+      "sourceRowNumber": 77,
+      "title": "Камера стройплощадки (демо) #2",
+      "type": "snapshot",
+      "url": "/mock-media/77_camera_1.svg",
+      "refreshSec": 30
+    },
+    {
+      "sourceRowNumber": 78,
+      "title": "Камера стройплощадки (демо) #1",
+      "type": "snapshot",
+      "url": "/mock-media/78_camera_0.svg",
+      "refreshSec": 30
+    },
+    {
+      "sourceRowNumber": 78,
+      "title": "Камера стройплощадки (демо) #2",
+      "type": "snapshot",
+      "url": "/mock-media/78_camera_1.svg",
+      "refreshSec": 30
+    }
+  ]
+}
