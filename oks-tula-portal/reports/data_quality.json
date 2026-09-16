@@ -1,0 +1,2829 @@
+{
+  "meta": {
+    "generatedAt": "2026-09-12T22:14:31.653Z",
+    "sourceFile": "/tmp/arena/tenants/c1528f2b-f41b-4d67-88b3-9abf1f7bd98e/sessions/9bd0643f-d762-4e48-93bd-8f16f00aa3fa/workspace/oks-tula-portal/data/raw/objects.csv",
+    "sourceFileHash": "f2b2b7ba725dc357bcc2f389e694f98817c06c500946c41ba42c38bb9927922c",
+    "totalRows": 95,
+    "geocoderProvider": "mock"
+  },
+  "columns": [
+    {
+      "key": "№ п/п",
+      "index": 0,
+      "sourceNumber": "1",
+      "filled": 95,
+      "empty": 0,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "ГРБС",
+      "index": 1,
+      "sourceNumber": "2",
+      "filled": 95,
+      "empty": 0,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "Наименование ОКС",
+      "index": 2,
+      "sourceNumber": "3",
+      "filled": 95,
+      "empty": 0,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "Этап строительства",
+      "index": 3,
+      "sourceNumber": "4",
+      "filled": 53,
+      "empty": 42,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "Адрес",
+      "index": 4,
+      "sourceNumber": "5",
+      "filled": 74,
+      "empty": 21,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "Координаты.Широта",
+      "index": 5,
+      "sourceNumber": "6",
+      "filled": 58,
+      "empty": 37,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "Координаты.Долгота",
+      "index": 6,
+      "sourceNumber": "7",
+      "filled": 58,
+      "empty": 37,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "Отрасль",
+      "index": 7,
+      "sourceNumber": "8",
+      "filled": 87,
+      "empty": 0,
+      "zeroLikeEmpty": 8
+    },
+    {
+      "key": "Статус",
+      "index": 8,
+      "sourceNumber": "9",
+      "filled": 95,
+      "empty": 0,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "Собственность",
+      "index": 9,
+      "sourceNumber": "10",
+      "filled": 86,
+      "empty": 0,
+      "zeroLikeEmpty": 9
+    },
+    {
+      "key": "АМО",
+      "index": 10,
+      "sourceNumber": "11",
+      "filled": 71,
+      "empty": 0,
+      "zeroLikeEmpty": 24
+    },
+    {
+      "key": "Заказчик",
+      "index": 11,
+      "sourceNumber": "12",
+      "filled": 95,
+      "empty": 0,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "Наименование НП/ГП",
+      "index": 12,
+      "sourceNumber": "14",
+      "filled": 66,
+      "empty": 29,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "Наименование ФП",
+      "index": 13,
+      "sourceNumber": "15",
+      "filled": 40,
+      "empty": 55,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "Код проекта",
+      "index": 14,
+      "sourceNumber": "16",
+      "filled": 16,
+      "empty": 79,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "ОБЩАЯ пл., м2",
+      "index": 15,
+      "sourceNumber": "17",
+      "filled": 60,
+      "empty": 0,
+      "zeroLikeEmpty": 35
+    },
+    {
+      "key": "Мошность (кол-во мест)",
+      "index": 16,
+      "sourceNumber": "18",
+      "filled": 70,
+      "empty": 6,
+      "zeroLikeEmpty": 19
+    },
+    {
+      "key": "ЭКСПЕРТИЗА(Ы)",
+      "index": 17,
+      "sourceNumber": "20",
+      "filled": 49,
+      "empty": 46,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "Год начала",
+      "index": 18,
+      "sourceNumber": "21",
+      "filled": 57,
+      "empty": 38,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "Год окончания",
+      "index": 19,
+      "sourceNumber": "22",
+      "filled": 55,
+      "empty": 40,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "Сроки строительства",
+      "index": 20,
+      "sourceNumber": "23",
+      "filled": 53,
+      "empty": 42,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "Дата передачи земельного участка заказчику",
+      "index": 21,
+      "sourceNumber": "24",
+      "filled": 54,
+      "empty": 41,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "Дата получения разрешения на строительство (реконструкцию)",
+      "index": 22,
+      "sourceNumber": "25",
+      "filled": 54,
+      "empty": 41,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "Дата заключения контракта",
+      "index": 23,
+      "sourceNumber": "26",
+      "filled": 57,
+      "empty": 38,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "Сроки контракта",
+      "index": 24,
+      "sourceNumber": "27",
+      "filled": 79,
+      "empty": 16,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "Подрядчик",
+      "index": 25,
+      "sourceNumber": "30",
+      "filled": 80,
+      "empty": 15,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "Строительная готовность",
+      "index": 26,
+      "sourceNumber": "58",
+      "filled": 78,
+      "empty": 0,
+      "zeroLikeEmpty": 17
+    },
+    {
+      "key": "Дата установки технологического оборудования",
+      "index": 27,
+      "sourceNumber": "65",
+      "filled": 53,
+      "empty": 42,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "Дата акта гидравлических испытаний",
+      "index": 28,
+      "sourceNumber": "66",
+      "filled": 53,
+      "empty": 42,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "ЗОС.дата",
+      "index": 29,
+      "sourceNumber": "67",
+      "filled": 53,
+      "empty": 42,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "ЗОС.номер",
+      "index": 30,
+      "sourceNumber": "68",
+      "filled": 5,
+      "empty": 90,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "АКТ ВВОДА.дата",
+      "index": 31,
+      "sourceNumber": "69",
+      "filled": 55,
+      "empty": 40,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "АКТ ВВОДА.номер",
+      "index": 32,
+      "sourceNumber": "70",
+      "filled": 15,
+      "empty": 80,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "Год ввода в эксплуатацию",
+      "index": 33,
+      "sourceNumber": "73",
+      "filled": 53,
+      "empty": 42,
+      "zeroLikeEmpty": 0
+    },
+    {
+      "key": "Фото",
+      "index": 34,
+      "sourceNumber": "74",
+      "filled": 2,
+      "empty": 93,
+      "zeroLikeEmpty": 0
+    }
+  ],
+  "stats": {
+    "total": 95,
+    "withCoordinates": 58,
+    "withoutCoordinates": 37,
+    "withoutAddress": 21,
+    "municipalityFromColumn": 71,
+    "municipalityInferredFromAddress": 6,
+    "municipalityInferredFromName": 18,
+    "municipalityUnknown": 0,
+    "industryFromCsv": 87,
+    "industryInferred": 5,
+    "industryNeedsModeration": 3,
+    "organizationsMerged": 61,
+    "programsMerged": 75,
+    "contractRefsExtracted": 10,
+    "datesParsed": 379,
+    "rangesFixed": 6,
+    "readinessZeroActive": 17
+  },
+  "distributions": {
+    "statuses": [
+      {
+        "code": "commissioned",
+        "name": "Введен в эксплуатацию",
+        "group": "completed",
+        "count": 53
+      },
+      {
+        "code": "smr",
+        "name": "СМР",
+        "group": "construction",
+        "count": 25
+      },
+      {
+        "code": "pir",
+        "name": "ПИР",
+        "group": "design",
+        "count": 13
+      },
+      {
+        "code": "pir_smr",
+        "name": "ПИР+СМР",
+        "group": "construction",
+        "count": 2
+      },
+      {
+        "code": "ea_preparation",
+        "name": "Подготовка электронного аукциона (ЭА)",
+        "group": "procurement",
+        "count": 1
+      },
+      {
+        "code": "budget_investments",
+        "name": "Бюджетные инвестиции",
+        "group": "procurement",
+        "count": 1
+      }
+    ],
+    "industries": [
+      {
+        "code": "sport",
+        "name": "Физическая культура и спорт",
+        "count": 23,
+        "inferred": 0
+      },
+      {
+        "code": "energy",
+        "name": "Энергетика",
+        "count": 20,
+        "inferred": 4
+      },
+      {
+        "code": "education",
+        "name": "Образование",
+        "count": 16,
+        "inferred": 0
+      },
+      {
+        "code": "housing_utilities",
+        "name": "Жилищно-коммунальное хозяйство",
+        "count": 14,
+        "inferred": 0
+      },
+      {
+        "code": "construction",
+        "name": "Строительство",
+        "count": 7,
+        "inferred": 0
+      },
+      {
+        "code": "culture",
+        "name": "Культура",
+        "count": 6,
+        "inferred": 0
+      },
+      {
+        "code": "health",
+        "name": "Здравоохранение",
+        "count": 3,
+        "inferred": 0
+      },
+      {
+        "code": "none",
+        "name": "не указана / требует модерации",
+        "count": 3,
+        "inferred": 0
+      },
+      {
+        "code": "social_policy",
+        "name": "Социальная политика",
+        "count": 1,
+        "inferred": 0
+      },
+      {
+        "code": "it_communications",
+        "name": "Связь и информатика",
+        "count": 1,
+        "inferred": 0
+      },
+      {
+        "code": "agriculture_ecology",
+        "name": "Сельское хозяйство и экология",
+        "count": 1,
+        "inferred": 1
+      }
+    ],
+    "municipalities": [
+      {
+        "id": "tula",
+        "name": "г. Тула",
+        "count": 37
+      },
+      {
+        "id": "uzlovsky",
+        "name": "Узловский",
+        "count": 7
+      },
+      {
+        "id": "kireevsky",
+        "name": "Киреевский",
+        "count": 6
+      },
+      {
+        "id": "novomoskovsk",
+        "name": "г. Новомосковск",
+        "count": 4
+      },
+      {
+        "id": "zaoksky",
+        "name": "Заокский",
+        "count": 3
+      },
+      {
+        "id": "kurkinsky",
+        "name": "Куркинский",
+        "count": 3
+      },
+      {
+        "id": "yasnogorsky",
+        "name": "Ясногорский",
+        "count": 3
+      },
+      {
+        "id": "venevsky",
+        "name": "Венёвский",
+        "count": 3
+      },
+      {
+        "id": "donskoy",
+        "name": "г. Донской",
+        "count": 3
+      },
+      {
+        "id": "arsenevsky",
+        "name": "Арсеньевский",
+        "count": 3
+      },
+      {
+        "id": "bogoroditsky",
+        "name": "Богородицкий",
+        "count": 3
+      },
+      {
+        "id": "kamensky",
+        "name": "Каменский",
+        "count": 3
+      },
+      {
+        "id": "aleksin",
+        "name": "г. Алексин",
+        "count": 2
+      },
+      {
+        "id": "chernsky",
+        "name": "Чернский",
+        "count": 2
+      },
+      {
+        "id": "shchyokinsky",
+        "name": "Щёкинский",
+        "count": 2
+      },
+      {
+        "id": "kimovsky",
+        "name": "Кимовский",
+        "count": 2
+      },
+      {
+        "id": "dubensky",
+        "name": "Дубенский",
+        "count": 2
+      },
+      {
+        "id": "teplo-ogarevsky",
+        "name": "Тёпло-Огарёвский",
+        "count": 2
+      },
+      {
+        "id": "slaviy",
+        "name": "Славный",
+        "count": 1
+      },
+      {
+        "id": "suvorovsky",
+        "name": "Суворовский",
+        "count": 1
+      },
+      {
+        "id": "plavsky",
+        "name": "Плавский",
+        "count": 1
+      },
+      {
+        "id": "volovsky",
+        "name": "Воловский",
+        "count": 1
+      },
+      {
+        "id": "odoevsky",
+        "name": "Одоевский",
+        "count": 1
+      }
+    ],
+    "commissioningByYear": [
+      {
+        "year": 2022,
+        "count": 11
+      },
+      {
+        "year": 2023,
+        "count": 10
+      },
+      {
+        "year": 2024,
+        "count": 14
+      },
+      {
+        "year": 2025,
+        "count": 18
+      }
+    ],
+    "ownership": [
+      {
+        "value": "municipal",
+        "count": 60
+      },
+      {
+        "value": "state",
+        "count": 26
+      },
+      {
+        "value": "unknown",
+        "count": 9
+      }
+    ]
+  },
+  "coordinates": {
+    "withCoordinates": 58,
+    "withoutCoordinates": 37,
+    "withoutAddress": 21,
+    "activeWithoutCoordinates": 37,
+    "duplicateGroups": [
+      {
+        "point": [
+          37.52713,
+          54.197689
+        ],
+        "rows": [
+          {
+            "rowNumber": 14,
+            "name": "Школа ЖК «Балтийский», в т.ч. ПИР» на 1100 мест"
+          },
+          {
+            "rowNumber": 41,
+            "name": "Модульный плавательный бассейн в г. Туле"
+          }
+        ]
+      },
+      {
+        "point": [
+          37.60982,
+          54.188397
+        ],
+        "rows": [
+          {
+            "rowNumber": 56,
+            "name": "Строительство котельной для теплоснабжения и ГВС здания ГУК ТО \"Тульский государственный ордена Красного Знамени академический театр драмы имени М. Горького\", расположенный по адресу: Тульская область, г. Тула, проспект Ленина, д. 34а"
+          },
+          {
+            "rowNumber": 77,
+            "name": "Реконструкция комплекса зданий ГУК ТО «Тульский государственный ордена Трудового Красного Знамени академический театр драмы имени М. Горького», расположенного по адресу: Тульская область, г. Тула, проспект Ленина, д. 34А"
+          }
+        ]
+      }
+    ],
+    "duplicateAddresses": [
+      {
+        "address": "тульская обл, арсеньевский р-н, п. арсеньево",
+        "rows": [
+          44,
+          50
+        ]
+      },
+      {
+        "address": "тульская область, г. тула, проспект ленина, д. 34а",
+        "rows": [
+          56,
+          77
+        ]
+      }
+    ]
+  },
+  "geocoding": {
+    "byDecision": {
+      "csv_kept_unverified": 57,
+      "csv_kept_conflict": 1,
+      "inferred_from_name": 18,
+      "pending_key": 17,
+      "municipality_centroid": 2
+    },
+    "inferredFromName": 18,
+    "pendingKey": 17,
+    "conflicts": [
+      {
+        "rowNumber": 7,
+        "name": "Крытый тренировочный манеж с футбольным полем 40х60 метров в г.Туле (Косая гора)",
+        "message": "КОНФЛИКТ ГЕОМЕТРИИ: точка попадает в «Ясногорский», а заявлено «г. Тула». Координата CSV сохранена, случай отправлен на модерацию (обратное геокодирование: §6.3 п.4)."
+      }
+    ],
+    "needsModeration": 3
+  },
+  "dateAnomalies": {
+    "batchFilledDates": [
+      {
+        "date": "2022-11-30",
+        "count": 20,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2022-12-31",
+        "count": 10,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2023-10-01",
+        "count": 10,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2023-12-10",
+        "count": 10,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2024-11-30",
+        "count": 10,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2024-12-10",
+        "count": 10,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2024-12-31",
+        "count": 10,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2024-12-20",
+        "count": 8,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2025-10-01",
+        "count": 8,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС"
+        ]
+      },
+      {
+        "date": "2025-11-30",
+        "count": 7,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС"
+        ]
+      },
+      {
+        "date": "2025-12-25",
+        "count": 6,
+        "fields": [
+          "акт ввода",
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС"
+        ]
+      },
+      {
+        "date": "2022-10-28",
+        "count": 5,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2021-11-01",
+        "count": 5,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2022-10-01",
+        "count": 5,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2022-12-01",
+        "count": 5,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2022-06-30",
+        "count": 5,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2023-08-31",
+        "count": 5,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2023-07-01",
+        "count": 5,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2023-12-15",
+        "count": 5,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2023-12-01",
+        "count": 5,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2023-05-01",
+        "count": 5,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2023-10-31",
+        "count": 5,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2023-10-10",
+        "count": 5,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2024-05-01",
+        "count": 5,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2024-03-31",
+        "count": 5,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2024-11-25",
+        "count": 5,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2023-12-31",
+        "count": 5,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2023-08-15",
+        "count": 5,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2025-06-30",
+        "count": 5,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2025-10-13",
+        "count": 5,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2025-09-10",
+        "count": 5,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      },
+      {
+        "date": "2024-05-14",
+        "count": 5,
+        "fields": [
+          "передача ЗУ",
+          "РНС",
+          "контракт",
+          "ЗОС",
+          "акт ввода"
+        ]
+      }
+    ],
+    "notes": [
+      "Одинаковые даты передачи ЗУ / РНС / контракта во многих строках — признак заполнения «пакетом»;",
+      "согласно ТЗ это не интерпретируется как ошибка, но фиксируется для прозрачности."
+    ]
+  },
+  "problems": [
+    {
+      "rowNumber": 1,
+      "objectName": "Строительство детского сада на 160 мест в п. Заокский",
+      "kind": "normalization",
+      "message": "заказчик: составной заказчик — основная организация + помета в отчёте",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 1,
+      "objectName": "Строительство детского сада на 160 мест в п. Заокский",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 1,
+      "objectName": "Строительство детского сада на 160 мест в п. Заокский",
+      "kind": "normalization",
+      "message": "мощность: в источнике 0 — мощность не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 2,
+      "objectName": "Строительство детского сада на 60 мест в г.Алексин",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 2,
+      "objectName": "Строительство детского сада на 60 мест в г.Алексин",
+      "kind": "normalization",
+      "message": "мощность: в источнике 0 — мощность не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 3,
+      "objectName": "Cтроительство детского сада на 200 мест в г. Новомосковск",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 3,
+      "objectName": "Cтроительство детского сада на 200 мест в г. Новомосковск",
+      "kind": "normalization",
+      "message": "заказчик: полное наименование объединено с сокращённым",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 3,
+      "objectName": "Cтроительство детского сада на 200 мест в г. Новомосковск",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 3,
+      "objectName": "Cтроительство детского сада на 200 мест в г. Новомосковск",
+      "kind": "normalization",
+      "message": "мощность: в источнике 0 — мощность не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 4,
+      "objectName": "Детский сад на 200 мест (1-й Юго-Восточный микрорайон)",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 5,
+      "objectName": "Строительство школы в д. Мыза микрорайон «Северная Мыза», Ленинский район, Тульская область, в т. ч. ПИР",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 5,
+      "objectName": "Строительство школы в д. Мыза микрорайон «Северная Мыза», Ленинский район, Тульская область, в т. ч. ПИР",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 5,
+      "objectName": "Строительство школы в д. Мыза микрорайон «Северная Мыза», Ленинский район, Тульская область, в т. ч. ПИР",
+      "kind": "normalization",
+      "message": "мощность: в источнике 0 — мощность не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 6,
+      "objectName": "Комплексная жилая застройка микрорайона с. Дедилово Дедиловского сельского округа Киреевского района Тульской области (Vэтап). Дом культуры",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 6,
+      "objectName": "Комплексная жилая застройка микрорайона с. Дедилово Дедиловского сельского округа Киреевского района Тульской области (Vэтап). Дом культуры",
+      "kind": "normalization",
+      "message": "мощность: в источнике 0 — мощность не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 7,
+      "objectName": "Крытый тренировочный манеж с футбольным полем 40х60 метров в г.Туле (Косая гора)",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 7,
+      "objectName": "Крытый тренировочный манеж с футбольным полем 40х60 метров в г.Туле (Косая гора)",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 7,
+      "objectName": "Крытый тренировочный манеж с футбольным полем 40х60 метров в г.Туле (Косая гора)",
+      "kind": "normalization",
+      "message": "мощность: в источнике 0 — мощность не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 8,
+      "objectName": "Реконструкция велотрека в г.Тула (второй этап)",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 8,
+      "objectName": "Реконструкция велотрека в г.Тула (второй этап)",
+      "kind": "normalization",
+      "message": "мощность: в источнике 0 — мощность не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 9,
+      "objectName": "«Центр одаренных детей» г. Новомосковск",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 9,
+      "objectName": "«Центр одаренных детей» г. Новомосковск",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 9,
+      "objectName": "«Центр одаренных детей» г. Новомосковск",
+      "kind": "normalization",
+      "message": "мощность: в источнике 0 — мощность не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 10,
+      "objectName": "Строительство коттеджного поселка на 25 домов",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 10,
+      "objectName": "Строительство коттеджного поселка на 25 домов",
+      "kind": "normalization",
+      "message": "подрядчик: двойной пробел в источнике",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 10,
+      "objectName": "Строительство коттеджного поселка на 25 домов",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 10,
+      "objectName": "Строительство коттеджного поселка на 25 домов",
+      "kind": "normalization",
+      "message": "мощность: в источнике 0 — мощность не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 11,
+      "objectName": "Строительство автоподъезда к ЖК «Петровский квартал» в муниципальном образовании г. Тула",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 11,
+      "objectName": "Строительство автоподъезда к ЖК «Петровский квартал» в муниципальном образовании г. Тула",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 11,
+      "objectName": "Строительство автоподъезда к ЖК «Петровский квартал» в муниципальном образовании г. Тула",
+      "kind": "normalization",
+      "message": "мощность: в источнике 0 — мощность не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 12,
+      "objectName": "Строительство фондохранилища г.Тула",
+      "kind": "normalization",
+      "message": "мощность: в источнике 0 — мощность не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 13,
+      "objectName": "Строительство детского сада на 75 мест по адресу: пр. Ленина, д. 58, г. Тула",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 13,
+      "objectName": "Строительство детского сада на 75 мест по адресу: пр. Ленина, д. 58, г. Тула",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 14,
+      "objectName": "Школа ЖК «Балтийский», в т.ч. ПИР» на 1100 мест",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 14,
+      "objectName": "Школа ЖК «Балтийский», в т.ч. ПИР» на 1100 мест",
+      "kind": "normalization",
+      "message": "подрядчик: 5 вариантов написания объединены",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 14,
+      "objectName": "Школа ЖК «Балтийский», в т.ч. ПИР» на 1100 мест",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 15,
+      "objectName": "Строительство школы на 100 мест в д. Ямны, в т.ч. ПИР",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 16,
+      "objectName": "Физкультурно-оздоровительный комплекс в п. Куркино Тульской области",
+      "kind": "normalization",
+      "message": "подрядчик: включая вероятную опечатку «ЭНЕРГПРОЕКТ» (пропущена «о»)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 16,
+      "objectName": "Физкультурно-оздоровительный комплекс в п. Куркино Тульской области",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 16,
+      "objectName": "Физкультурно-оздоровительный комплекс в п. Куркино Тульской области",
+      "kind": "normalization",
+      "message": "мощность: в источнике 0 — мощность не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 17,
+      "objectName": "Физкультурно-оздоровительный комплекс в г. Ясногорске Ясногорского района",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 17,
+      "objectName": "Физкультурно-оздоровительный комплекс в г. Ясногорске Ясногорского района",
+      "kind": "normalization",
+      "message": "заказчик: составной заказчик — основная организация + помета в отчёте",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 17,
+      "objectName": "Физкультурно-оздоровительный комплекс в г. Ясногорске Ясногорского района",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 17,
+      "objectName": "Физкультурно-оздоровительный комплекс в г. Ясногорске Ясногорского района",
+      "kind": "normalization",
+      "message": "мощность: в источнике 0 — мощность не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 18,
+      "objectName": "Крытый тренировочный манеж с футбольным полем 40х60 метров",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 18,
+      "objectName": "Крытый тренировочный манеж с футбольным полем 40х60 метров",
+      "kind": "normalization",
+      "message": "мощность: в источнике 0 — мощность не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 19,
+      "objectName": "Физкультурно-оздоровительный комплекс",
+      "kind": "normalization",
+      "message": "подрядчик: включая вероятную опечатку «ЭНЕРГПРОЕКТ» (пропущена «о»)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 19,
+      "objectName": "Физкультурно-оздоровительный комплекс",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 19,
+      "objectName": "Физкультурно-оздоровительный комплекс",
+      "kind": "normalization",
+      "message": "мощность: в источнике 0 — мощность не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 20,
+      "objectName": "Строительство ЦКР г. Венев",
+      "kind": "normalization",
+      "message": "подрядчик: 5 вариантов написания объединены",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 20,
+      "objectName": "Строительство ЦКР г. Венев",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 20,
+      "objectName": "Строительство ЦКР г. Венев",
+      "kind": "normalization",
+      "message": "мощность: в источнике 0 — мощность не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 21,
+      "objectName": "Cтроительство корпуса на базе ГУ ТО \"Красивский дом пожилых \"Забота\"",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 22,
+      "objectName": "Флагманский центр \"Мои документы\" г.Тула",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 22,
+      "objectName": "Флагманский центр \"Мои документы\" г.Тула",
+      "kind": "normalization",
+      "message": "заказчик: составной заказчик — основная организация + помета в отчёте",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 22,
+      "objectName": "Флагманский центр \"Мои документы\" г.Тула",
+      "kind": "normalization",
+      "message": "подрядчик: 5 вариантов написания объединены",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 22,
+      "objectName": "Флагманский центр \"Мои документы\" г.Тула",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 22,
+      "objectName": "Флагманский центр \"Мои документы\" г.Тула",
+      "kind": "normalization",
+      "message": "мощность: в источнике 0 — мощность не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 23,
+      "objectName": "Школа на 1 100 мест в ЖК «Юго-Восток»",
+      "kind": "normalization",
+      "message": "подрядчик: 5 вариантов написания объединены",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 24,
+      "objectName": "Строительство станции водоподготовки п. Красный Богатырь",
+      "kind": "normalization",
+      "message": "заказчик: полное наименование объединено с сокращённым",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 24,
+      "objectName": "Строительство станции водоподготовки п. Красный Богатырь",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 25,
+      "objectName": "Реконструкция водопроводной станции по ул. К. Маркса с установкой станции водоподготовки",
+      "kind": "normalization",
+      "message": "подрядчик: включая вероятную опечатку «Помэковод»",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 25,
+      "objectName": "Реконструкция водопроводной станции по ул. К. Маркса с установкой станции водоподготовки",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 26,
+      "objectName": "Выполнение работ по приспособлению объекта культурного наследия регионального значения «Обществен. Здание», XVIII в., расположенного по адресу: Тульская область, город Тула, ул. Советская/пр-т Ленина, д. 62/15, под «Тульский государственный театр кукол» в рамках национального проекта «Культура»",
+      "kind": "normalization",
+      "message": "мощность: в источнике 0 — мощность не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 27,
+      "objectName": "Школа на 400 мест г. Донской",
+      "kind": "normalization",
+      "message": "подрядчик: в источнике незакрытая кавычка",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 29,
+      "objectName": "Модульный спортивный зал в г. Советск Щекинского района",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 30,
+      "objectName": "Легкоатлетический комплекс на 2 500 мест г. Тула ул. Санаторная",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 30,
+      "objectName": "Легкоатлетический комплекс на 2 500 мест г. Тула ул. Санаторная",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 30,
+      "objectName": "Легкоатлетический комплекс на 2 500 мест г. Тула ул. Санаторная",
+      "kind": "normalization",
+      "message": "мощность: в источнике 0 — мощность не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 31,
+      "objectName": "Строительство онкологического центра г. Тула",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 31,
+      "objectName": "Строительство онкологического центра г. Тула",
+      "kind": "normalization",
+      "message": "заказчик: составной заказчик — основная организация + помета в отчёте",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 32,
+      "objectName": "Строительство 2 МКД в Плеханово г. Тула",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 32,
+      "objectName": "Строительство 2 МКД в Плеханово г. Тула",
+      "kind": "normalization",
+      "message": "заказчик: составной заказчик — основная организация + помета в отчёте",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 33,
+      "objectName": "Строительство 2 МКД в Барсуках г. Тула",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 33,
+      "objectName": "Строительство 2 МКД в Барсуках г. Тула",
+      "kind": "normalization",
+      "message": "заказчик: составной заказчик — основная организация + помета в отчёте",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 34,
+      "objectName": "Строительство 3 МКД в г. Донской, мкр Центральный, ул. Октябрьская (в районе д.10)",
+      "kind": "normalization",
+      "message": "заказчик: составная запись; вторая часть сохранена в raw: АМО г. Донской; составной заказчик — основная организация + помета в отчёте",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 34,
+      "objectName": "Строительство 3 МКД в г. Донской, мкр Центральный, ул. Октябрьская (в районе д.10)",
+      "kind": "normalization",
+      "message": "сроки контракта: исправлена опечатка формата второй даты (ДД.ММ-ГГГГ)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 35,
+      "objectName": "Строительство 2 МКД в п. Ленинский, ул Микрорайон",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 35,
+      "objectName": "Строительство 2 МКД в п. Ленинский, ул Микрорайон",
+      "kind": "normalization",
+      "message": "заказчик: составной заказчик — основная организация + помета в отчёте",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 36,
+      "objectName": "Строительство детского сада на 75 мест, расположенного по адресу: Тульская область, Ленинский район, поселок Петровский, на земельном участке с кадастровым номером 71:14:040401:10069",
+      "kind": "normalization",
+      "message": "подрядчик: 5 вариантов написания объединены",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 36,
+      "objectName": "Строительство детского сада на 75 мест, расположенного по адресу: Тульская область, Ленинский район, поселок Петровский, на земельном участке с кадастровым номером 71:14:040401:10069",
+      "kind": "normalization",
+      "message": "сроки контракта: исправлена опечатка формата первой даты (ДД-ММ-ГГГГ)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 38,
+      "objectName": "Бассейн госпиталя ветеранов войн и труда государственного учреждения здравоохранения Тульской области \"Тульская областная клиническая больница\"",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 38,
+      "objectName": "Бассейн госпиталя ветеранов войн и труда государственного учреждения здравоохранения Тульской области \"Тульская областная клиническая больница\"",
+      "kind": "normalization",
+      "message": "сроки контракта: одна дата вместо диапазона — интерпретирована как дата окончания; требует подтверждения",
+      "severity": "warning"
+    },
+    {
+      "rowNumber": 41,
+      "objectName": "Модульный плавательный бассейн в г. Туле",
+      "kind": "normalization",
+      "message": "экспертиза: экспертиза без номера (текст): Информация об экспертизе будет направлена после разработки и утверждения проектн…",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 42,
+      "objectName": "Реконструкция объекта водоснабжения пос. Епифань",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 42,
+      "objectName": "Реконструкция объекта водоснабжения пос. Епифань",
+      "kind": "normalization",
+      "message": "подрядчик: включая вероятную опечатку «Помэковод»",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 42,
+      "objectName": "Реконструкция объекта водоснабжения пос. Епифань",
+      "kind": "normalization",
+      "message": "НП/ГП: подпрограмма (РП) сохранена в raw: РП \"Чистая вода Тульской области\"",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 43,
+      "objectName": "Реконструкция объекта водоснабжения г. Богородицк, ул. Центральная, д. 57А",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 43,
+      "objectName": "Реконструкция объекта водоснабжения г. Богородицк, ул. Центральная, д. 57А",
+      "kind": "normalization",
+      "message": "подрядчик: включая вероятную опечатку «Помэковод»",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 43,
+      "objectName": "Реконструкция объекта водоснабжения г. Богородицк, ул. Центральная, д. 57А",
+      "kind": "normalization",
+      "message": "НП/ГП: подпрограмма (РП) сохранена в raw: РП \"Чистая вода Тульской области\"",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 44,
+      "objectName": "Строительство модульной котельной «Школьная» в п. Арсеньево Арсеньевского района",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 44,
+      "objectName": "Строительство модульной котельной «Школьная» в п. Арсеньево Арсеньевского района",
+      "kind": "normalization",
+      "message": "НП/ГП: подпрограмма (РП) сохранена в raw: РП: \"Строительство и капитальный ремонт объектов коммунальной инфраструктуры\"",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 45,
+      "objectName": "Котельная Каменский район с. Архангельское, ул Тихомирова, 23а",
+      "kind": "normalization",
+      "message": "НП/ГП: подпрограмма (РП) сохранена в raw: РП: \"Строительство и капитальный ремонт объектов коммунальной инфраструктуры\"",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 46,
+      "objectName": "Строительство модульной котельной мощностью 2,4 МВт в п. Приупский Киреевского района Тульской области",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 46,
+      "objectName": "Строительство модульной котельной мощностью 2,4 МВт в п. Приупский Киреевского района Тульской области",
+      "kind": "normalization",
+      "message": "НП/ГП: подпрограмма (РП) сохранена в raw: РП: \"Строительство и капитальный ремонт объектов коммунальной инфраструктуры\"",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 47,
+      "objectName": "Строительство блочно-модульной котельной мощностью 1,5 МВт по адресу г. Узловая, ул. Чехова в районе д.1 взамен существующей котельной №4",
+      "kind": "normalization",
+      "message": "НП/ГП: подпрограмма (РП) сохранена в raw: РП: \"Строительство и капитальный ремонт объектов коммунальной инфраструктуры\"",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 48,
+      "objectName": "Строительство газовой котельной 6 МВт по адресу Тульская область Щекинский район. Сп Огаревка ул. Шахтная д 106",
+      "kind": "normalization",
+      "message": "НП/ГП: подпрограмма (РП) сохранена в raw: РП: \"Строительство и капитальный ремонт объектов коммунальной инфраструктуры\"",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 49,
+      "objectName": "Строительство модульной котельной теплопроизводительностью 1,2 МВт, работающей в автоматическом режиме. Расположенной по адресу Тульская область Каменский район д Яблонево",
+      "kind": "normalization",
+      "message": "НП/ГП: подпрограмма (РП) сохранена в raw: РП: \"Строительство и капитальный ремонт объектов коммунальной инфраструктуры\"",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 50,
+      "objectName": "Строительство очистных сооружений в п. Арсеньево Арсеньевского района Тульской области",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 51,
+      "objectName": "Канализационные очистные сооружения пгт. Славный Арсеньевского района Тульской области",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 51,
+      "objectName": "Канализационные очистные сооружения пгт. Славный Арсеньевского района Тульской области",
+      "kind": "normalization",
+      "message": "подрядчик: включая вероятную опечатку «Помэковод»",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 52,
+      "objectName": "Строительство станции водоподготовки с реконструкцией системы водоснабжения мкр. Горняк, мкр.Южный",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 52,
+      "objectName": "Строительство станции водоподготовки с реконструкцией системы водоснабжения мкр. Горняк, мкр.Южный",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 53,
+      "objectName": "Строительство модульной котельной с. Скомороши мощностью 0,6 МВт, работающей по адресу: Тульская область, дубенский район, МО Воскресенское, с. Скоморошки, ул. Центральная",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 54,
+      "objectName": "Строительство школы на 1100 мест в микрорайоне Суворовский 2, г. Тула, в т.ч. ПИР",
+      "kind": "normalization",
+      "message": "нет адреса — геокодинг невозможен, требуется геометрия от заказчика",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 54,
+      "objectName": "Строительство школы на 1100 мест в микрорайоне Суворовский 2, г. Тула, в т.ч. ПИР",
+      "kind": "normalization",
+      "message": "отрасль не указана (0); ГРБС «АМО г. Тула» неоднозначен — требуется модерация",
+      "severity": "warning"
+    },
+    {
+      "rowNumber": 54,
+      "objectName": "Строительство школы на 1100 мест в микрорайоне Суворовский 2, г. Тула, в т.ч. ПИР",
+      "kind": "normalization",
+      "message": "собственность не указана (0)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 54,
+      "objectName": "Строительство школы на 1100 мест в микрорайоне Суворовский 2, г. Тула, в т.ч. ПИР",
+      "kind": "normalization",
+      "message": "МО восстановлено из наименования по НП «г. тула» (низкая уверенность)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 54,
+      "objectName": "Строительство школы на 1100 мест в микрорайоне Суворовский 2, г. Тула, в т.ч. ПИР",
+      "kind": "normalization",
+      "message": "подрядчик: 5 вариантов написания объединены",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 55,
+      "objectName": "Детская школа искусств в Заокском районе",
+      "kind": "normalization",
+      "message": "нет адреса — геокодинг невозможен, требуется геометрия от заказчика",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 55,
+      "objectName": "Детская школа искусств в Заокском районе",
+      "kind": "normalization",
+      "message": "подрядчик: 5 вариантов написания объединены",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 55,
+      "objectName": "Детская школа искусств в Заокском районе",
+      "kind": "normalization",
+      "message": "год начала: год извлечён из полной даты",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 55,
+      "objectName": "Детская школа искусств в Заокском районе",
+      "kind": "normalization",
+      "message": "год окончания: год извлечён из полной даты",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 56,
+      "objectName": "Строительство котельной для теплоснабжения и ГВС здания ГУК ТО \"Тульский государственный ордена Красного Знамени академический театр драмы имени М. Горького\", расположенный по адресу: Тульская область, г. Тула, проспект Ленина, д. 34а",
+      "kind": "normalization",
+      "message": "МО восстановлено из адреса по НП «г. тула»",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 56,
+      "objectName": "Строительство котельной для теплоснабжения и ГВС здания ГУК ТО \"Тульский государственный ордена Красного Знамени академический театр драмы имени М. Горького\", расположенный по адресу: Тульская область, г. Тула, проспект Ленина, д. 34а",
+      "kind": "normalization",
+      "message": "год начала: год извлечён из полной даты",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 57,
+      "objectName": "Модульная котельная ГПОУ ТО \"Узловский политехнический техникум\"",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 57,
+      "objectName": "Модульная котельная ГПОУ ТО \"Узловский политехнический техникум\"",
+      "kind": "normalization",
+      "message": "год начала: год извлечён из полной даты",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 57,
+      "objectName": "Модульная котельная ГПОУ ТО \"Узловский политехнический техникум\"",
+      "kind": "normalization",
+      "message": "год окончания: год извлечён из полной даты",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 57,
+      "objectName": "Модульная котельная ГПОУ ТО \"Узловский политехнический техникум\"",
+      "kind": "normalization",
+      "message": "готовность 0 при активном статусе — работы не начаты",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 58,
+      "objectName": "Многоквартирный жилой дом, расположенный по адресу; Тульская область, Куркинский район, р.п. Куркино",
+      "kind": "normalization",
+      "message": "нет адреса — геокодинг невозможен, требуется геометрия от заказчика",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 58,
+      "objectName": "Многоквартирный жилой дом, расположенный по адресу; Тульская область, Куркинский район, р.п. Куркино",
+      "kind": "normalization",
+      "message": "отрасль восстановлена по ГРБС: отрасль восстановлена по ГРБС «Министерство сельского хозяйства, природных ресурсов и экологии ТО»",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 58,
+      "objectName": "Многоквартирный жилой дом, расположенный по адресу; Тульская область, Куркинский район, р.п. Куркино",
+      "kind": "normalization",
+      "message": "собственность не указана (0)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 58,
+      "objectName": "Многоквартирный жилой дом, расположенный по адресу; Тульская область, Куркинский район, р.п. Куркино",
+      "kind": "normalization",
+      "message": "МО восстановлено из наименования по НП «куркинский район» (низкая уверенность)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 59,
+      "objectName": "Строительство станции водоподготовки и реконструкция сетей водоснабжения Новолюбовского водозабора",
+      "kind": "normalization",
+      "message": "из ячейки «Подрядчик» извлечены контрактные реквизиты (сохранены в raw)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 59,
+      "objectName": "Строительство станции водоподготовки и реконструкция сетей водоснабжения Новолюбовского водозабора",
+      "kind": "normalization",
+      "message": "НП/ГП: подпрограмма (РП) сохранена в raw: РП \"Чистая вода Тульской области\"",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 59,
+      "objectName": "Строительство станции водоподготовки и реконструкция сетей водоснабжения Новолюбовского водозабора",
+      "kind": "normalization",
+      "message": "сроки контракта: двухзначные годы раскрыты по правилу: <50 → 20xx",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 60,
+      "objectName": "Строительство канализационных очистных сооружений в п. Новольвовск Кимовского района Тульской области",
+      "kind": "normalization",
+      "message": "подрядчик: включая вероятную опечатку «Помэковод»",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 60,
+      "objectName": "Строительство канализационных очистных сооружений в п. Новольвовск Кимовского района Тульской области",
+      "kind": "normalization",
+      "message": "из ячейки «Подрядчик» извлечены контрактные реквизиты (сохранены в raw)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 60,
+      "objectName": "Строительство канализационных очистных сооружений в п. Новольвовск Кимовского района Тульской области",
+      "kind": "normalization",
+      "message": "НП/ГП: подпрограмма (РП) сохранена в raw: РП: \"Строительство и капитальный ремонт объектов коммунальной инфраструктуры\"",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 61,
+      "objectName": "Строительство блочно-модульной котельной мощностью 11 МВт по адресу г. Узловая, ул. Новая в районе д.1 взамен существующей котельной №26",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 61,
+      "objectName": "Строительство блочно-модульной котельной мощностью 11 МВт по адресу г. Узловая, ул. Новая в районе д.1 взамен существующей котельной №26",
+      "kind": "normalization",
+      "message": "из ячейки «Подрядчик» извлечены контрактные реквизиты (сохранены в raw)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 61,
+      "objectName": "Строительство блочно-модульной котельной мощностью 11 МВт по адресу г. Узловая, ул. Новая в районе д.1 взамен существующей котельной №26",
+      "kind": "normalization",
+      "message": "НП/ГП: подпрограмма (РП) сохранена в raw: РП: \"Строительство и капитальный ремонт объектов коммунальной инфраструктуры\"",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 62,
+      "objectName": "Строительство модульной котельной по адресу г. Узловая квартал 5-я пятилетка, ул,Новая",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 62,
+      "objectName": "Строительство модульной котельной по адресу г. Узловая квартал 5-я пятилетка, ул,Новая",
+      "kind": "normalization",
+      "message": "из ячейки «Подрядчик» извлечены контрактные реквизиты (сохранены в raw)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 62,
+      "objectName": "Строительство модульной котельной по адресу г. Узловая квартал 5-я пятилетка, ул,Новая",
+      "kind": "normalization",
+      "message": "НП/ГП: подпрограмма (РП) сохранена в raw: РП: \"Строительство и капитальный ремонт объектов коммунальной инфраструктуры\"",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 63,
+      "objectName": "Реконструкция очистных сооружений канализации города Тулы, в том числе I этап в части строительства цеха механического обезвоживания осадка (ЦМО) и вспомогательных сооружений",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 63,
+      "objectName": "Реконструкция очистных сооружений канализации города Тулы, в том числе I этап в части строительства цеха механического обезвоживания осадка (ЦМО) и вспомогательных сооружений",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 63,
+      "objectName": "Реконструкция очистных сооружений канализации города Тулы, в том числе I этап в части строительства цеха механического обезвоживания осадка (ЦМО) и вспомогательных сооружений",
+      "kind": "normalization",
+      "message": "подозрительная мощность водоснабжения: 184464 м³/сут — проверить источник",
+      "severity": "warning"
+    },
+    {
+      "rowNumber": 63,
+      "objectName": "Реконструкция очистных сооружений канализации города Тулы, в том числе I этап в части строительства цеха механического обезвоживания осадка (ЦМО) и вспомогательных сооружений",
+      "kind": "normalization",
+      "message": "колонка «Фото» содержит дату (01.07.2026), а не ссылку — ошибка источника; сохранено в photo_date",
+      "severity": "warning"
+    },
+    {
+      "rowNumber": 64,
+      "objectName": "Реконструкция очистных сооружений биологической очистки сточных вод в р. п. Теплое Тепло-Огаревского района Тульской области производительностью 1500 м3/сутки",
+      "kind": "normalization",
+      "message": "МО восстановлено из адреса по НП «теплое»",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 64,
+      "objectName": "Реконструкция очистных сооружений биологической очистки сточных вод в р. п. Теплое Тепло-Огаревского района Тульской области производительностью 1500 м3/сутки",
+      "kind": "normalization",
+      "message": "подрядчик: включая вероятную опечатку «Помэковод»",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 64,
+      "objectName": "Реконструкция очистных сооружений биологической очистки сточных вод в р. п. Теплое Тепло-Огаревского района Тульской области производительностью 1500 м3/сутки",
+      "kind": "normalization",
+      "message": "колонка «Фото» содержит дату (26.06.2026), а не ссылку — ошибка источника; сохранено в photo_date",
+      "severity": "warning"
+    },
+    {
+      "rowNumber": 65,
+      "objectName": "Строительство канализационных очистных сооружений мкр.Центральный (г. Донской)",
+      "kind": "normalization",
+      "message": "нет адреса — геокодинг невозможен, требуется геометрия от заказчика",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 65,
+      "objectName": "Строительство канализационных очистных сооружений мкр.Центральный (г. Донской)",
+      "kind": "normalization",
+      "message": "отрасль восстановлена по ГРБС: отрасль восстановлена по ГРБС «Министерство энергетики ТО»",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 65,
+      "objectName": "Строительство канализационных очистных сооружений мкр.Центральный (г. Донской)",
+      "kind": "normalization",
+      "message": "собственность не указана (0)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 65,
+      "objectName": "Строительство канализационных очистных сооружений мкр.Центральный (г. Донской)",
+      "kind": "normalization",
+      "message": "МО восстановлено из наименования по НП «донской» (низкая уверенность)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 66,
+      "objectName": "Строительство очистных сооружений бытовых сточных вод г. Суворова",
+      "kind": "normalization",
+      "message": "нет адреса — геокодинг невозможен, требуется геометрия от заказчика",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 66,
+      "objectName": "Строительство очистных сооружений бытовых сточных вод г. Суворова",
+      "kind": "normalization",
+      "message": "отрасль восстановлена по ГРБС: отрасль восстановлена по ГРБС «Министерство энергетики ТО»",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 67,
+      "objectName": "Строительство станции водоподготовки с реконструкцией системы водоснабжения в г. Липки",
+      "kind": "normalization",
+      "message": "нет адреса — геокодинг невозможен, требуется геометрия от заказчика",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 67,
+      "objectName": "Строительство станции водоподготовки с реконструкцией системы водоснабжения в г. Липки",
+      "kind": "normalization",
+      "message": "отрасль восстановлена по ГРБС: отрасль восстановлена по ГРБС «Министерство энергетики ТО»",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 67,
+      "objectName": "Строительство станции водоподготовки с реконструкцией системы водоснабжения в г. Липки",
+      "kind": "normalization",
+      "message": "собственность не указана (0)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 67,
+      "objectName": "Строительство станции водоподготовки с реконструкцией системы водоснабжения в г. Липки",
+      "kind": "normalization",
+      "message": "МО восстановлено из наименования по НП «липки» (низкая уверенность)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 68,
+      "objectName": "Реконструкция очистных сооружений сточных бытовых вод г. Киреевск",
+      "kind": "normalization",
+      "message": "нет адреса — геокодинг невозможен, требуется геометрия от заказчика",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 68,
+      "objectName": "Реконструкция очистных сооружений сточных бытовых вод г. Киреевск",
+      "kind": "normalization",
+      "message": "отрасль восстановлена по ГРБС: отрасль восстановлена по ГРБС «Министерство энергетики ТО»",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 68,
+      "objectName": "Реконструкция очистных сооружений сточных бытовых вод г. Киреевск",
+      "kind": "normalization",
+      "message": "собственность не указана (0)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 68,
+      "objectName": "Реконструкция очистных сооружений сточных бытовых вод г. Киреевск",
+      "kind": "normalization",
+      "message": "МО восстановлено из наименования по НП «киреевск» (низкая уверенность)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 69,
+      "objectName": "Строительство артезианской скважины в с. Хавки Веневского района",
+      "kind": "normalization",
+      "message": "из ячейки «Подрядчик» извлечены контрактные реквизиты (сохранены в raw)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 69,
+      "objectName": "Строительство артезианской скважины в с. Хавки Веневского района",
+      "kind": "normalization",
+      "message": "НП/ГП: подпрограмма (РП) сохранена в raw: РП \"Чистая вода Тульской области\"",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 70,
+      "objectName": "Обеспечение централизованным водоснабжением площадки для многодетных граждан, расположенной в д. Крюково",
+      "kind": "normalization",
+      "message": "из ячейки «Подрядчик» извлечены контрактные реквизиты (сохранены в raw)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 70,
+      "objectName": "Обеспечение централизованным водоснабжением площадки для многодетных граждан, расположенной в д. Крюково",
+      "kind": "normalization",
+      "message": "НП/ГП: подпрограмма (РП) сохранена в raw: РП \"Чистая вода Тульской области\"",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 70,
+      "objectName": "Обеспечение централизованным водоснабжением площадки для многодетных граждан, расположенной в д. Крюково",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 71,
+      "objectName": "Реконструкция системы водоснабжения Пролетарского округа муниципального образования город Тула Медвенско-Осетровского водозабора, II этап",
+      "kind": "normalization",
+      "message": "нет адреса — геокодинг невозможен, требуется геометрия от заказчика",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 71,
+      "objectName": "Реконструкция системы водоснабжения Пролетарского округа муниципального образования город Тула Медвенско-Осетровского водозабора, II этап",
+      "kind": "normalization",
+      "message": "НП/ГП: подпрограмма (РП) сохранена в raw: РП: \"Строительство и капитальный ремонт объектов коммунальной инфраструктуры\"",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 71,
+      "objectName": "Реконструкция системы водоснабжения Пролетарского округа муниципального образования город Тула Медвенско-Осетровского водозабора, II этап",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 71,
+      "objectName": "Реконструкция системы водоснабжения Пролетарского округа муниципального образования город Тула Медвенско-Осетровского водозабора, II этап",
+      "kind": "normalization",
+      "message": "сроки контракта: указаны только годы без точных дат",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 72,
+      "objectName": "Строительство модульной котельной ВМР по адресу: ул. 10 Армии, д.№1/1, в г. Богородицк мощностью 2,5 МВт, взамен существующей",
+      "kind": "normalization",
+      "message": "адрес нормализован (пробелы/сокращения)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 72,
+      "objectName": "Строительство модульной котельной ВМР по адресу: ул. 10 Армии, д.№1/1, в г. Богородицк мощностью 2,5 МВт, взамен существующей",
+      "kind": "normalization",
+      "message": "из ячейки «Подрядчик» извлечены контрактные реквизиты (сохранены в raw)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 72,
+      "objectName": "Строительство модульной котельной ВМР по адресу: ул. 10 Армии, д.№1/1, в г. Богородицк мощностью 2,5 МВт, взамен существующей",
+      "kind": "normalization",
+      "message": "НП/ГП: подпрограмма (РП) сохранена в raw: РП: \"Строительство и капитальный ремонт объектов коммунальной инфраструктуры\"",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 72,
+      "objectName": "Строительство модульной котельной ВМР по адресу: ул. 10 Армии, д.№1/1, в г. Богородицк мощностью 2,5 МВт, взамен существующей",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 73,
+      "objectName": "Строительство водовода для обеспечения централизованного водоснабжения земельных участков, предоставленных многодетным семьям по ул. 14 Декабря в г. Узловая Тульской области и расположенных к северу от д. Бибиково Узловского района Тульской области",
+      "kind": "normalization",
+      "message": "из ячейки «Подрядчик» извлечены контрактные реквизиты (сохранены в raw)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 73,
+      "objectName": "Строительство водовода для обеспечения централизованного водоснабжения земельных участков, предоставленных многодетным семьям по ул. 14 Декабря в г. Узловая Тульской области и расположенных к северу от д. Бибиково Узловского района Тульской области",
+      "kind": "normalization",
+      "message": "НП/ГП: подпрограмма (РП) сохранена в raw: РП \"Чистая вода Тульской области\"",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 74,
+      "objectName": "Строительство школы на 1100 мест в ЖК \"Платон Парк\" по адресу: г. Тула, Привокзальный район, ул. Генерала Маргелова",
+      "kind": "normalization",
+      "message": "нет адреса — геокодинг невозможен, требуется геометрия от заказчика",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 74,
+      "objectName": "Строительство школы на 1100 мест в ЖК \"Платон Парк\" по адресу: г. Тула, Привокзальный район, ул. Генерала Маргелова",
+      "kind": "normalization",
+      "message": "отрасль не указана (0); ГРБС «АМО г. Тула» неоднозначен — требуется модерация",
+      "severity": "warning"
+    },
+    {
+      "rowNumber": 74,
+      "objectName": "Строительство школы на 1100 мест в ЖК \"Платон Парк\" по адресу: г. Тула, Привокзальный район, ул. Генерала Маргелова",
+      "kind": "normalization",
+      "message": "собственность не указана (0)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 74,
+      "objectName": "Строительство школы на 1100 мест в ЖК \"Платон Парк\" по адресу: г. Тула, Привокзальный район, ул. Генерала Маргелова",
+      "kind": "normalization",
+      "message": "МО восстановлено из наименования по НП «платон парк» (низкая уверенность)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 74,
+      "objectName": "Строительство школы на 1100 мест в ЖК \"Платон Парк\" по адресу: г. Тула, Привокзальный район, ул. Генерала Маргелова",
+      "kind": "normalization",
+      "message": "готовность 0 при активном статусе — работы не начаты",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 75,
+      "objectName": "Строительство школы на 1175 мест в ЖК \"Пряничная слобода\" по адресу : г. Тула, Зареченский район, ул. Большая",
+      "kind": "normalization",
+      "message": "нет адреса — геокодинг невозможен, требуется геометрия от заказчика",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 75,
+      "objectName": "Строительство школы на 1175 мест в ЖК \"Пряничная слобода\" по адресу : г. Тула, Зареченский район, ул. Большая",
+      "kind": "normalization",
+      "message": "отрасль не указана (0); ГРБС «АМО г. Тула» неоднозначен — требуется модерация",
+      "severity": "warning"
+    },
+    {
+      "rowNumber": 75,
+      "objectName": "Строительство школы на 1175 мест в ЖК \"Пряничная слобода\" по адресу : г. Тула, Зареченский район, ул. Большая",
+      "kind": "normalization",
+      "message": "собственность не указана (0)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 75,
+      "objectName": "Строительство школы на 1175 мест в ЖК \"Пряничная слобода\" по адресу : г. Тула, Зареченский район, ул. Большая",
+      "kind": "normalization",
+      "message": "МО восстановлено из наименования по НП «пряничная слобода» (низкая уверенность)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 75,
+      "objectName": "Строительство школы на 1175 мест в ЖК \"Пряничная слобода\" по адресу : г. Тула, Зареченский район, ул. Большая",
+      "kind": "normalization",
+      "message": "готовность 0 при активном статусе — работы не начаты",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 76,
+      "objectName": "Школа вместимостью 1 100 мест, расположенная по адресу Тульская область, Ленинский район, д. Нижняя Китаевка",
+      "kind": "normalization",
+      "message": "собственность не указана (0)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 76,
+      "objectName": "Школа вместимостью 1 100 мест, расположенная по адресу Тульская область, Ленинский район, д. Нижняя Китаевка",
+      "kind": "normalization",
+      "message": "МО восстановлено из адреса по НП «ленинский район»",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 76,
+      "objectName": "Школа вместимостью 1 100 мест, расположенная по адресу Тульская область, Ленинский район, д. Нижняя Китаевка",
+      "kind": "normalization",
+      "message": "подрядчик: 5 вариантов написания объединены",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 76,
+      "objectName": "Школа вместимостью 1 100 мест, расположенная по адресу Тульская область, Ленинский район, д. Нижняя Китаевка",
+      "kind": "normalization",
+      "message": "готовность 0 при активном статусе — работы не начаты",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 77,
+      "objectName": "Реконструкция комплекса зданий ГУК ТО «Тульский государственный ордена Трудового Красного Знамени академический театр драмы имени М. Горького», расположенного по адресу: Тульская область, г. Тула, проспект Ленина, д. 34А",
+      "kind": "normalization",
+      "message": "МО восстановлено из адреса по НП «г. тула»",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 77,
+      "objectName": "Реконструкция комплекса зданий ГУК ТО «Тульский государственный ордена Трудового Красного Знамени академический театр драмы имени М. Горького», расположенного по адресу: Тульская область, г. Тула, проспект Ленина, д. 34А",
+      "kind": "normalization",
+      "message": "подрядчик: в источнике указан этап работ: ПИР; ролевой суффикс (ПИР) сохранён в raw",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 77,
+      "objectName": "Реконструкция комплекса зданий ГУК ТО «Тульский государственный ордена Трудового Красного Знамени академический театр драмы имени М. Горького», расположенного по адресу: Тульская область, г. Тула, проспект Ленина, д. 34А",
+      "kind": "normalization",
+      "message": "год начала: год извлечён из полной даты",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 77,
+      "objectName": "Реконструкция комплекса зданий ГУК ТО «Тульский государственный ордена Трудового Красного Знамени академический театр драмы имени М. Горького», расположенного по адресу: Тульская область, г. Тула, проспект Ленина, д. 34А",
+      "kind": "normalization",
+      "message": "готовность 0 при активном статусе — работы не начаты",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 78,
+      "objectName": "Общежитие ГПОУ ТО \"Ясногорский технологический техникум\"",
+      "kind": "normalization",
+      "message": "МО восстановлено из адреса по НП «ясногорск»",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 78,
+      "objectName": "Общежитие ГПОУ ТО \"Ясногорский технологический техникум\"",
+      "kind": "normalization",
+      "message": "сроки контракта: указаны только годы без точных дат",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 78,
+      "objectName": "Общежитие ГПОУ ТО \"Ясногорский технологический техникум\"",
+      "kind": "normalization",
+      "message": "готовность 0 при активном статусе — работы не начаты",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 79,
+      "objectName": "Строительство тренировочной ледовой арены, в том числе ПИР, по адресу: г. Тула, п. Петровский,земельный участок с кадастровым номером 71:14:040401:17196",
+      "kind": "normalization",
+      "message": "нет адреса — геокодинг невозможен, требуется геометрия от заказчика",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 79,
+      "objectName": "Строительство тренировочной ледовой арены, в том числе ПИР, по адресу: г. Тула, п. Петровский,земельный участок с кадастровым номером 71:14:040401:17196",
+      "kind": "normalization",
+      "message": "МО восстановлено из наименования по НП «г. тула» (низкая уверенность)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 79,
+      "objectName": "Строительство тренировочной ледовой арены, в том числе ПИР, по адресу: г. Тула, п. Петровский,земельный участок с кадастровым номером 71:14:040401:17196",
+      "kind": "normalization",
+      "message": "готовность 0 при активном статусе — работы не начаты",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 80,
+      "objectName": "Модульный фиджитал центр в г. Тула",
+      "kind": "normalization",
+      "message": "нет адреса — геокодинг невозможен, требуется геометрия от заказчика",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 80,
+      "objectName": "Модульный фиджитал центр в г. Тула",
+      "kind": "normalization",
+      "message": "МО восстановлено из наименования по НП «г. тула» (низкая уверенность)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 81,
+      "objectName": "Модульный зал единоборств в г. Плавск",
+      "kind": "normalization",
+      "message": "нет адреса — геокодинг невозможен, требуется геометрия от заказчика",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 81,
+      "objectName": "Модульный зал единоборств в г. Плавск",
+      "kind": "normalization",
+      "message": "МО восстановлено из наименования по НП «плавск» (низкая уверенность)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 82,
+      "objectName": "Модульный спортивный зал в п. Теплое",
+      "kind": "normalization",
+      "message": "нет адреса — геокодинг невозможен, требуется геометрия от заказчика",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 82,
+      "objectName": "Модульный спортивный зал в п. Теплое",
+      "kind": "normalization",
+      "message": "МО восстановлено из наименования по НП «теплое» (низкая уверенность)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 83,
+      "objectName": "Региональный центр адаптивных видов спорта в г. Туле",
+      "kind": "normalization",
+      "message": "нет адреса — геокодинг невозможен, требуется геометрия от заказчика",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 83,
+      "objectName": "Региональный центр адаптивных видов спорта в г. Туле",
+      "kind": "normalization",
+      "message": "МО восстановлено из наименования по НП «туле» (низкая уверенность)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 83,
+      "objectName": "Региональный центр адаптивных видов спорта в г. Туле",
+      "kind": "normalization",
+      "message": "готовность 0 при активном статусе — работы не начаты",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 84,
+      "objectName": "Модульный спортивный зал в п. Волово",
+      "kind": "normalization",
+      "message": "нет адреса — геокодинг невозможен, требуется геометрия от заказчика",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 84,
+      "objectName": "Модульный спортивный зал в п. Волово",
+      "kind": "normalization",
+      "message": "МО восстановлено из наименования по НП «волово» (низкая уверенность)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 84,
+      "objectName": "Модульный спортивный зал в п. Волово",
+      "kind": "normalization",
+      "message": "готовность 0 при активном статусе — работы не начаты",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 85,
+      "objectName": "Крытый тренировочный манеж с футбольным полем в г. Новомосковск",
+      "kind": "normalization",
+      "message": "нет адреса — геокодинг невозможен, требуется геометрия от заказчика",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 85,
+      "objectName": "Крытый тренировочный манеж с футбольным полем в г. Новомосковск",
+      "kind": "normalization",
+      "message": "МО восстановлено из наименования по НП «новомосковск» (низкая уверенность)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 85,
+      "objectName": "Крытый тренировочный манеж с футбольным полем в г. Новомосковск",
+      "kind": "normalization",
+      "message": "готовность 0 при активном статусе — работы не начаты",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 86,
+      "objectName": "Физкультурно-оздоровительный комплекс с плавательным бассейном в п. Заокск",
+      "kind": "normalization",
+      "message": "нет адреса — геокодинг невозможен, требуется геометрия от заказчика",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 86,
+      "objectName": "Физкультурно-оздоровительный комплекс с плавательным бассейном в п. Заокск",
+      "kind": "normalization",
+      "message": "МО восстановлено из наименования по НП «заокск» (низкая уверенность)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 86,
+      "objectName": "Физкультурно-оздоровительный комплекс с плавательным бассейном в п. Заокск",
+      "kind": "normalization",
+      "message": "готовность 0 при активном статусе — работы не начаты",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 87,
+      "objectName": "Модульный бассейн в п. Дубна",
+      "kind": "normalization",
+      "message": "нет адреса — геокодинг невозможен, требуется геометрия от заказчика",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 87,
+      "objectName": "Модульный бассейн в п. Дубна",
+      "kind": "normalization",
+      "message": "МО восстановлено из наименования по НП «дубна» (низкая уверенность)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 87,
+      "objectName": "Модульный бассейн в п. Дубна",
+      "kind": "normalization",
+      "message": "готовность 0 при активном статусе — работы не начаты",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 88,
+      "objectName": "Модульный бассейн в г. Ясногорск",
+      "kind": "normalization",
+      "message": "нет адреса — геокодинг невозможен, требуется геометрия от заказчика",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 88,
+      "objectName": "Модульный бассейн в г. Ясногорск",
+      "kind": "normalization",
+      "message": "МО восстановлено из наименования по НП «ясногорск» (низкая уверенность)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 88,
+      "objectName": "Модульный бассейн в г. Ясногорск",
+      "kind": "normalization",
+      "message": "готовность 0 при активном статусе — работы не начаты",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 89,
+      "objectName": "Модульный спортивный зал в п. Каменка",
+      "kind": "normalization",
+      "message": "нет адреса — геокодинг невозможен, требуется геометрия от заказчика",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 89,
+      "objectName": "Модульный спортивный зал в п. Каменка",
+      "kind": "normalization",
+      "message": "МО восстановлено из наименования по НП «каменка» (низкая уверенность)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 89,
+      "objectName": "Модульный спортивный зал в п. Каменка",
+      "kind": "normalization",
+      "message": "готовность 0 при активном статусе — работы не начаты",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 90,
+      "objectName": "Хирургический корпус ГУЗ \"Тульская городская клиническая больница скорой медицинской помощи им. Д.Я. Ваныкина\"",
+      "kind": "normalization",
+      "message": "собственность не указана (0)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 90,
+      "objectName": "Хирургический корпус ГУЗ \"Тульская городская клиническая больница скорой медицинской помощи им. Д.Я. Ваныкина\"",
+      "kind": "normalization",
+      "message": "МО восстановлено из адреса по НП «малевка»",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 90,
+      "objectName": "Хирургический корпус ГУЗ \"Тульская городская клиническая больница скорой медицинской помощи им. Д.Я. Ваныкина\"",
+      "kind": "normalization",
+      "message": "заказчик: составной заказчик — основная организация + помета в отчёте",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 90,
+      "objectName": "Хирургический корпус ГУЗ \"Тульская городская клиническая больница скорой медицинской помощи им. Д.Я. Ваныкина\"",
+      "kind": "normalization",
+      "message": "готовность 0 при активном статусе — работы не начаты",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 91,
+      "objectName": "Реконструкция машинного зала (Q=2500-3000м3/сут) на территории водозабора ул. К. Маркса",
+      "kind": "normalization",
+      "message": "подрядчик: включая вероятную опечатку «Помэковод»",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 91,
+      "objectName": "Реконструкция машинного зала (Q=2500-3000м3/сут) на территории водозабора ул. К. Маркса",
+      "kind": "normalization",
+      "message": "из ячейки «Подрядчик» извлечены контрактные реквизиты (сохранены в raw)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 91,
+      "objectName": "Реконструкция машинного зала (Q=2500-3000м3/сут) на территории водозабора ул. К. Маркса",
+      "kind": "normalization",
+      "message": "НП/ГП: подпрограмма (РП) сохранена в raw: РП \"Чистая вода Тульской области\"",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 91,
+      "objectName": "Реконструкция машинного зала (Q=2500-3000м3/сут) на территории водозабора ул. К. Маркса",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 91,
+      "objectName": "Реконструкция машинного зала (Q=2500-3000м3/сут) на территории водозабора ул. К. Маркса",
+      "kind": "normalization",
+      "message": "мощность: диапазон 2500–3000: значение не заполнено, только raw",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 92,
+      "objectName": "Строительство модульной котельной №10М, взамен котельных №10-1 и №10-2 в г. Узловая",
+      "kind": "normalization",
+      "message": "из ячейки «Подрядчик» извлечены контрактные реквизиты (сохранены в raw)",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 92,
+      "objectName": "Строительство модульной котельной №10М, взамен котельных №10-1 и №10-2 в г. Узловая",
+      "kind": "normalization",
+      "message": "НП/ГП: подпрограмма (РП) сохранена в raw: РП: \"Строительство и капитальный ремонт объектов коммунальной инфраструктуры\"",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 92,
+      "objectName": "Строительство модульной котельной №10М, взамен котельных №10-1 и №10-2 в г. Узловая",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 93,
+      "objectName": "Обеспечение централизованным водоснабжением площадки для многодетных граждан, расположенной в с. Торхово",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 94,
+      "objectName": "\"Реконструкция системы водоснабжения п. Шварцевский\"",
+      "kind": "normalization",
+      "message": "НП/ГП: подпрограмма (РП) сохранена в raw: РП: \"Строительство и капитальный ремонт объектов коммунальной инфраструктуры\"",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 94,
+      "objectName": "\"Реконструкция системы водоснабжения п. Шварцевский\"",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 94,
+      "objectName": "\"Реконструкция системы водоснабжения п. Шварцевский\"",
+      "kind": "normalization",
+      "message": "готовность 0 при активном статусе — работы не начаты",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 95,
+      "objectName": "«Реконструкция котельной №1 по ул. Пионерская в п. Бородинский Киреевского района Тульской области»",
+      "kind": "normalization",
+      "message": "НП/ГП: подпрограмма (РП) сохранена в raw: РП: \"Строительство и капитальный ремонт объектов коммунальной инфраструктуры\"",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 95,
+      "objectName": "«Реконструкция котельной №1 по ул. Пионерская в п. Бородинский Киреевского района Тульской области»",
+      "kind": "normalization",
+      "message": "в источнике 0 — площадь не заполнена",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 95,
+      "objectName": "«Реконструкция котельной №1 по ул. Пионерская в п. Бородинский Киреевского района Тульской области»",
+      "kind": "normalization",
+      "message": "готовность 0 при активном статусе — работы не начаты",
+      "severity": "info"
+    },
+    {
+      "rowNumber": 7,
+      "objectName": "Крытый тренировочный манеж с футбольным полем 40х60 метров в г.Туле (Косая гора)",
+      "kind": "geocoding",
+      "message": "КОНФЛИКТ ГЕОМЕТРИИ: точка попадает в «Ясногорский», а заявлено «г. Тула». Координата CSV сохранена, случай отправлен на модерацию (обратное геокодирование: §6.3 п.4).",
+      "severity": "critical"
+    },
+    {
+      "rowNumber": 54,
+      "objectName": "Строительство школы на 1100 мест в микрорайоне Суворовский 2, г. Тула, в т.ч. ПИР",
+      "kind": "geocoding",
+      "message": "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика",
+      "severity": "warning"
+    },
+    {
+      "rowNumber": 58,
+      "objectName": "Многоквартирный жилой дом, расположенный по адресу; Тульская область, Куркинский район, р.п. Куркино",
+      "kind": "geocoding",
+      "message": "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика",
+      "severity": "warning"
+    },
+    {
+      "rowNumber": 65,
+      "objectName": "Строительство канализационных очистных сооружений мкр.Центральный (г. Донской)",
+      "kind": "geocoding",
+      "message": "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика",
+      "severity": "warning"
+    },
+    {
+      "rowNumber": 67,
+      "objectName": "Строительство станции водоподготовки с реконструкцией системы водоснабжения в г. Липки",
+      "kind": "geocoding",
+      "message": "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика",
+      "severity": "warning"
+    },
+    {
+      "rowNumber": 68,
+      "objectName": "Реконструкция очистных сооружений сточных бытовых вод г. Киреевск",
+      "kind": "geocoding",
+      "message": "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика",
+      "severity": "warning"
+    },
+    {
+      "rowNumber": 74,
+      "objectName": "Строительство школы на 1100 мест в ЖК \"Платон Парк\" по адресу: г. Тула, Привокзальный район, ул. Генерала Маргелова",
+      "kind": "geocoding",
+      "message": "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика",
+      "severity": "warning"
+    },
+    {
+      "rowNumber": 75,
+      "objectName": "Строительство школы на 1175 мест в ЖК \"Пряничная слобода\" по адресу : г. Тула, Зареченский район, ул. Большая",
+      "kind": "geocoding",
+      "message": "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика",
+      "severity": "warning"
+    },
+    {
+      "rowNumber": 79,
+      "objectName": "Строительство тренировочной ледовой арены, в том числе ПИР, по адресу: г. Тула, п. Петровский,земельный участок с кадастровым номером 71:14:040401:17196",
+      "kind": "geocoding",
+      "message": "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика",
+      "severity": "warning"
+    },
+    {
+      "rowNumber": 80,
+      "objectName": "Модульный фиджитал центр в г. Тула",
+      "kind": "geocoding",
+      "message": "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика",
+      "severity": "warning"
+    },
+    {
+      "rowNumber": 81,
+      "objectName": "Модульный зал единоборств в г. Плавск",
+      "kind": "geocoding",
+      "message": "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика",
+      "severity": "warning"
+    },
+    {
+      "rowNumber": 82,
+      "objectName": "Модульный спортивный зал в п. Теплое",
+      "kind": "geocoding",
+      "message": "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика",
+      "severity": "warning"
+    },
+    {
+      "rowNumber": 83,
+      "objectName": "Региональный центр адаптивных видов спорта в г. Туле",
+      "kind": "geocoding",
+      "message": "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика",
+      "severity": "warning"
+    },
+    {
+      "rowNumber": 84,
+      "objectName": "Модульный спортивный зал в п. Волово",
+      "kind": "geocoding",
+      "message": "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика",
+      "severity": "warning"
+    },
+    {
+      "rowNumber": 85,
+      "objectName": "Крытый тренировочный манеж с футбольным полем в г. Новомосковск",
+      "kind": "geocoding",
+      "message": "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика",
+      "severity": "warning"
+    },
+    {
+      "rowNumber": 86,
+      "objectName": "Физкультурно-оздоровительный комплекс с плавательным бассейном в п. Заокск",
+      "kind": "geocoding",
+      "message": "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика",
+      "severity": "warning"
+    },
+    {
+      "rowNumber": 87,
+      "objectName": "Модульный бассейн в п. Дубна",
+      "kind": "geocoding",
+      "message": "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика",
+      "severity": "warning"
+    },
+    {
+      "rowNumber": 88,
+      "objectName": "Модульный бассейн в г. Ясногорск",
+      "kind": "geocoding",
+      "message": "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика",
+      "severity": "warning"
+    },
+    {
+      "rowNumber": 89,
+      "objectName": "Модульный спортивный зал в п. Каменка",
+      "kind": "geocoding",
+      "message": "адрес отсутствует; МО и точка отображения (центроид) определены по населённому пункту из наименования — геометрию запросить у заказчика",
+      "severity": "warning"
+    }
+  ],
+  "recommendations": [
+    "Запросить у заказчика официальные координаты по 37 активным объектам (в первую очередь — по 21 объектам без адреса): автоматически геометрию получить невозможно.",
+    "Утвердить у заказчика: нормативы обеспеченности (config/thresholds), веса сфер композитного индекса, официальные границы МО (сейчас — OpenStreetMap, ODbL) и население (сейчас — демо-источник).",
+    "Проверить у заказчика 1 конфликт геометрии (точка вне заявленного МО) — эталонный пример: объект №7 «Косая гора» с точкой в Ясногорске.",
+    "Получить секретный ключ Catalog API 2ГИС и повторить прогон (GEOCODER_PROVIDER=live): 17 объект(ов) ожидают геокодирования; ожидаемый выход по измерениям ТЗ — ~10 уверенных совпадений, 16 слабых, 6 отклонений валидатором, 5 «не найдено».",
+    "Провести ручную модерацию в админке: отрасль для записей со значением «0» при неоднозначном ГРБС, составные/оборванные наименования организаций, случаи «МО не определено»."
+  ]
+}

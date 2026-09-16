@@ -1,0 +1,14 @@
+{
+  "name": "@oks/e2e",
+  "version": "0.1.0",
+  "private": true,
+  "description": "E2E-сценарии Playwright (§13). Запускаются против поднятого стека (docker compose up).",
+  "scripts": {
+    "install:browsers": "playwright install --with-deps chromium",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0"
+  }
+}
