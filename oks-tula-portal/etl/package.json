@@ -1,0 +1,23 @@
+{
+  "name": "@oks/etl",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ETL: нормализация objects.csv → PostgreSQL/PostGIS, отчёт о качестве данных, геокодинг-очередь (§6 ТЗ)",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "dry": "tsx src/dry_run.ts",
+    "geocode": "tsx src/geocode_job.ts",
+    "test": "vitest run --root ../.."
+  },
+  "dependencies": {
+    "@oks/shared": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.10",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
